@@ -32,7 +32,7 @@ export default {
 
   created() {
     if(!this.localeIsSet) {
-      axios.get('http://ip-api.com/json')
+      axios.get('https://extreme-ip-lookup.com/json/')
         .then((response) => {
           if(response.status === 200) {
             if(response.data.countryCode === 'ID') {
