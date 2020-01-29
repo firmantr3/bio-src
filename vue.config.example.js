@@ -1,5 +1,12 @@
 const webpack = require('webpack')
 const packageJson = require('./package.json')
+const manifestJSON = require("./public/manifest.json");
+
+const pwaArgs = {
+    themeColor: manifestJSON.theme_color,
+    name: manifestJSON.short_name,
+    msTileColor: manifestJSON.background_color
+};
 
 const publicPath = process.env.NODE_ENV === 'production'
     ? '/ftn-vue-pwa-demo/'
@@ -23,5 +30,10 @@ module.exports = {
                 SW_SCOPE: JSON.stringify(publicPath)
             })
         ]
+    },
+    chainWebpack: config => {
+        config.plugin("pwa").tap(() => {
+            return [pwaArgs];
+        });
     }
 }
