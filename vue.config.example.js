@@ -28,8 +28,8 @@ module.exports = {
                 AUTH_TOKEN_HEADER: JSON.stringify(false),
                 PRODUCTION: JSON.stringify(process.env.NODE_ENV === 'production'),
                 API_URL: process.env.NODE_ENV === 'production' ?
-                    null :
-                    null,
+                    JSON.stringify('') :
+                    JSON.stringify(''),
                 GITHUB_AUTH: JSON.stringify(false),
                 APP_VERSION: JSON.stringify(packageJson.version),
                 APP_PACKAGE_NAME: JSON.stringify(packageJson.name),

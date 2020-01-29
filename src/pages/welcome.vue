@@ -11,6 +11,7 @@
           blank
           blank-color="#bbb"
           src="https://gravatar.com/avatar/85c9a1594c2d324183364fd303ba0ae4?s=300"
+          alt="My Avatar"
         ></b-img-lazy>
 
         <p class="mt-4">
@@ -19,27 +20,27 @@
         </p>
 
         <p>
-          <a class="mr-2 github-color" href="https://github.com/firmantr3" target="_blank" :title="$t('contact_me_via') + ' Github'">
+          <a rel="noreferrer" class="mr-2 github-color" href="https://github.com/firmantr3" target="_blank" :title="$t('contact_me_via') + ' Github'">
             <i class="fa fa-2x fa-github"></i>
           </a>
 
-          <a class="mr-2 gitlab-color" href="https://gitlab.com/firmantr3" target="_blank" :title="$t('contact_me_via') + ' Gitlab'">
+          <a rel="noreferrer" class="mr-2 gitlab-color" href="https://gitlab.com/firmantr3" target="_blank" :title="$t('contact_me_via') + ' Gitlab'">
             <i class="fa fa-2x fa-gitlab"></i>
           </a>
 
-          <a class="mr-2 telegram-color" href="https://t.me/firmantr3" target="_blank" :title="$t('contact_me_via') + ' Telegram'">
+          <a rel="noreferrer" class="mr-2 telegram-color" href="https://t.me/firmantr3" target="_blank" :title="$t('contact_me_via') + ' Telegram'">
             <i class="fa fa-2x fa-telegram"></i>
           </a>
 
-          <a class="mr-2 whatsapp-color" href="https://wa.me/6281138702880" target="_blank" :title="$t('contact_me_via') + ' Whatsapp'">
+          <a rel="noreferrer" class="mr-2 whatsapp-color" href="https://wa.me/6281138702880" target="_blank" :title="$t('contact_me_via') + ' Whatsapp'">
             <i class="fa fa-2x fa-whatsapp"></i>
           </a>
 
-          <a class="mr-2 facebook-color" href="https://www.facebook.com/ondenkz" target="_blank" :title="$t('contact_me_via') + ' Facebook'">
+          <a rel="noreferrer" class="mr-2 facebook-color" href="https://www.facebook.com/ondenkz" target="_blank" :title="$t('contact_me_via') + ' Facebook'">
             <i class="fa fa-2x fa-facebook-square"></i>
           </a>
 
-          <a class="linkedin-color" href="https://www.linkedin.com/in/firman-taruna-nugraha-982409b1" target="_blank" :title="$t('contact_me_via') + ' Linkedin'">
+          <a rel="noreferrer" class="linkedin-color" href="https://www.linkedin.com/in/firman-taruna-nugraha-982409b1" target="_blank" :title="$t('contact_me_via') + ' Linkedin'">
             <i class="fa fa-2x fa-linkedin-square"></i>
           </a>
         </p>

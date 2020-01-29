@@ -32,17 +32,22 @@ export default {
 
   created() {
     if(!this.localeIsSet) {
-      axios.get('https://extreme-ip-lookup.com/json/')
-        .then((response) => {
-          if(response.status === 200) {
-            if(response.data.countryCode === 'ID') {
-              this.setLocale('id')
+      try {
+        axios.get('https://extreme-ip-lookup.com/json/')
+          .then((response) => {
+            if(response.status === 200) {
+              if(response.data.countryCode === 'ID') {
+                this.setLocale('id')
+              }
+              else {
+                this.setLocale('en')
+              }
             }
-            else {
-              this.setLocale('en')
-            }
-          }
-        })
+          })
+      }
+      catch(e) {
+        // console.log(e);
+      }
     }
   }
 

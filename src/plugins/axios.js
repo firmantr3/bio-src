@@ -29,7 +29,7 @@ axios.interceptors.request.use(request => {
 
 // Response interceptor
 axios.interceptors.response.use(response => response, error => {
-  const { status } = error.response
+  const { status } = error && typeof(error.response) !== 'undefined' ? error.response : { status: null };
 
   if (status >= 500) {
     swal({

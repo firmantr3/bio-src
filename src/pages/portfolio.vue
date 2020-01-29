@@ -10,10 +10,11 @@
             blank
             blank-color="#bbb"
             :src="imgAsset('motaicon.png')"
+            alt="Mobiltravel Icon"
           ></b-card-img-lazy>
 
           <p class="mb-0 mt-2">
-            <a href="https://mobiltravel.id" target="_blank"><b>MobilTravel</b></a> {{ $t('mobiltravel_intro') }}.
+            <a rel="noreferrer" href="https://mobiltravel.id" target="_blank"><b>MobilTravel</b></a> {{ $t('mobiltravel_intro') }}.
           </p>
         </b-card>
 
@@ -22,6 +23,7 @@
             class="cursor-pointer"
             blank
             blank-color="#bbb"
+            alt="Qyta SIK Thumbnail"
             :src="imgAsset('qytasik.resized.png')"
             v-b-modal.modal-qytasik
           ></b-card-img-lazy>
@@ -31,6 +33,7 @@
                 fluid
                 blank
                 blank-color="#bbb"
+                alt="Qyta SIK"
                 :src="imgAsset('qytasik.png')"
               ></b-img-lazy>
             </div>
@@ -49,6 +52,7 @@
             v-b-modal.modal-qytaadmin
             blank
             blank-color="#bbb"
+            alt="Qyta Admin Travel Thumbnail"
             :src="imgAsset('qytaadmin.resized.png')"
           ></b-card-img-lazy>
           <b-modal id="modal-qytaadmin" size="xl" title="QytaTrans Schedule &amp; Seat Management">
@@ -57,6 +61,7 @@
                 fluid
                 blank
                 blank-color="#bbb"
+                alt="Qyta Admin Travel"
                 :src="imgAsset('qytaadmin.png')"
               ></b-img-lazy>
             </div>
@@ -73,6 +78,7 @@
             v-b-modal.modal-qytachecklist
             blank
             blank-color="#bbb"
+            alt="Qyta Checklist Thumbnail"
             :src="imgAsset('qytachecklist.png')"
           ></b-card-img-lazy>
           <b-modal id="modal-qytachecklist" size="xl" title="QytaTrans Vehicle Checklist">
@@ -81,6 +87,7 @@
                 fluid
                 blank
                 blank-color="#bbb"
+                alt="Qyta Checklist"
                 :src="imgAsset('qytachecklist.png')"
               ></b-img-lazy>
             </div>
@@ -99,6 +106,7 @@
             v-b-modal.modal-qytahris
             blank
             blank-color="#bbb"
+            alt="Qyta HRIS Thumbnail"
             :src="imgAsset('qytahris.resized.png')"
           ></b-card-img-lazy>
           <b-modal id="modal-qytahris" size="xl" title="QytaTrans Human Resource Information System">
@@ -107,6 +115,7 @@
                 fluid
                 blank
                 blank-color="#bbb"
+                alt="Qyta HRIS"
                 :src="imgAsset('qytahris.png')"
               ></b-img-lazy>
             </div>
@@ -123,6 +132,7 @@
             v-b-modal.modal-smanusa
             blank
             blank-color="#bbb"
+            alt="SMANUSA Website Thumbnail"
             :src="imgAsset('smanusa.resized.png')"
           ></b-card-img-lazy>
           <b-modal id="modal-smanusa" size="xl" title="SMANUSA High School Website">
@@ -131,13 +141,14 @@
                 fluid
                 blank
                 blank-color="#bbb"
+                alt="SMANUSA Website"
                 :src="imgAsset('smanusa.png')"
               ></b-img-lazy>
             </div>
           </b-modal>
 
           <p class="mb-0 mt-2">
-            <a href="https://smanusa.sch.id" target="_blank"><b>SMANUSA High School Website</b></a>,
+            <a rel="noreferrer" href="https://smanusa.sch.id" target="_blank"><b>SMANUSA High School Website</b></a>,
             {{ $t('smanusa_intro') }}.
           </p>
         </b-card>
