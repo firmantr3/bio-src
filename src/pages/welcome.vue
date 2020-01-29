@@ -1,6 +1,6 @@
 <template>
   <div>
-    <div class="basic-layout d-flex align-items-center justify-content-center m-0">
+    <main class="basic-layout d-flex align-items-center justify-content-center m-0">
       <div class="text-center">
         <b-img-lazy
           class="rounded-circle"
@@ -45,7 +45,7 @@
           </a>
         </p>
       </div>
-    </div>
+    </main>
   </div>
 </template>
 

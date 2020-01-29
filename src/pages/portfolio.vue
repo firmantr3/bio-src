@@ -14,7 +14,7 @@
           ></b-card-img-lazy>
 
           <p class="mb-0 mt-2">
-            <a rel="noreferrer" href="https://mobiltravel.id" target="_blank"><b>MobilTravel</b></a> {{ $t('mobiltravel_intro') }}.
+            <a rel="noreferrer" href="https://mobiltravel.id" target="_blank"><b class="text-dark">MobilTravel</b></a> {{ $t('mobiltravel_intro') }}.
           </p>
         </b-card>
 
@@ -148,7 +148,7 @@
           </b-modal>
 
           <p class="mb-0 mt-2">
-            <a rel="noreferrer" href="https://smanusa.sch.id" target="_blank"><b>SMANUSA High School Website</b></a>,
+            <a rel="noreferrer" href="https://smanusa.sch.id" target="_blank"><b class="text-dark">SMANUSA High School Website</b></a>,
             {{ $t('smanusa_intro') }}.
           </p>
         </b-card>
