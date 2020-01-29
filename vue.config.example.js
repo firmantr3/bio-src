@@ -14,6 +14,12 @@ const publicPath = process.env.NODE_ENV === 'production'
 
 module.exports = {
     publicPath: publicPath,
+    pwa: {
+        workboxPluginMode: 'InjectManifest',
+        workboxOptions: {
+            swSrc: 'src/service-worker.js'
+        }
+    },
     configureWebpack: {
         plugins: [
             new webpack.DefinePlugin({
