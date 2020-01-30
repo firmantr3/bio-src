@@ -1,20 +1,43 @@
 if(workbox) {
-    const precacheManifest = self.__precacheManifest.concat([
-        {
-            "revision": "688ccb01136feef8c640595da1677167",
-            "url": "https://gravatar.com/avatar/85c9a1594c2d324183364fd303ba0ae4?s=300",
-        },
-        {
-            "revision": "688ccb01136feef8c640595da1677167",
-            "url": "/img/icons/favicon-32x32.png",
-        },
-        {
-            "revision": "688ccb01136feef8c640595da1677167",
-            "url": "/img/icons/favicon-16x16.png",
-        },
-    ]);
+    const precacheManifest = self.__precacheManifest.filter((item) => {
+        let isImage = (/\.(gif|jpg|jpeg|tiff|png)$/i).test(item.url);
+
+        return ! isImage;
+    });
 
     workbox.precaching.precacheAndRoute(precacheManifest, {});
+
+    workbox.routing.registerRoute(
+        /\.(?:png|gif|jpg|jpeg|svg)$/,
+        workbox.strategies.staleWhileRevalidate({
+            cacheName: 'images',
+            plugins: [
+                new workbox.expiration.Plugin({
+                    maxEntries: 60,
+                    maxAgeSeconds: 30 * 24 * 60 * 60, // 30 Days
+                }),
+            ],
+        }),
+    );
+
+    // workbox.routing.registerRoute(
+    //     new RegExp('https://some-fancy-api.com'),
+    //     workbox.strategies.networkFirst({
+    //         cacheName: 'api',
+    //     }),
+    // );
+
+    // workbox.routing.registerRoute(
+    //     new RegExp('https://fonts.(?:googleapis|gstatic).com/(.*)'),
+    //     workbox.strategies.cacheFirst({
+    //         cacheName: 'googleapis',
+    //         plugins: [
+    //             new workbox.expiration.Plugin({
+    //                 maxEntries: 30,
+    //             }),
+    //         ],
+    //     }),
+    // );
 
     self.addEventListener("message", (e) => {
         console.log('updated, skip waiting!')

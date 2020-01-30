@@ -43,5 +43,6 @@
   "qytaadmin_intro": "aplikasi utama QytaTrans Travel berbasis web intuk pemakaian internal. Saya telah mengerjakan aplikasi ini fullstack dari backend hingga frontend",
   "qytachecklist_intro": "aplikasi web progresif (PWA) checklist armada QytaTrans Travel intuk pemakaian internal. Saya memimpin pengerjaan aplikasi ini fullstack dari backend hingga frontend",
   "qytahris_intro": "adalah sistem informasi karyawan berbasis web untuk internal QytaTrans Travel. Saya melakukan sedikit pembaruan dan perbaikan pada aplikasi ini",
-  "smanusa_intro": "website profil dari SMA NU 1 Kemranjen. Saya membangun website ini menggunakan PHP core tanpa framework saat saya masih baru memulai karir sebagai web developer"
+  "smanusa_intro": "website profil dari SMA NU 1 Kemranjen. Saya membangun website ini menggunakan PHP core tanpa framework saat saya masih baru memulai karir sebagai web developer",
+  "sum_intro": "yaitu sistem koperasi dan platform crowdfunding. Saya develop backend mobile API dengan otentikasi JWT dengan PHP laravel beserta frontend admin & membernya"
 }
