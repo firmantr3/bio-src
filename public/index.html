@@ -20,6 +20,15 @@
   <meta property="twitter:description" content="<%= APP_DESCRIPTION %>">
   <meta property="twitter:image:src" content="<%= BASE_URL %>/">
   <title><%= APP_NAME %></title>
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=<%= GOOGLE_ANALYTICS_CODE %>"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
+
+    gtag('config', '<%= GOOGLE_ANALYTICS_CODE %>');
+  </script>
 </head>
 
 <body>

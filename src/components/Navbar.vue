@@ -22,7 +22,7 @@
 </template>
 
 <script>
-import LocaleDropdown from './LocaleDropdown'
+const LocaleDropdown = () => import('./LocaleDropdown')
 
 export default {
   components: {

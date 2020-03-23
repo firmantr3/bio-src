@@ -24,6 +24,7 @@ module.exports = {
     "APP_PACKAGE_NAME": true,
     "workbox": true,
     "AUTH_TOKEN_HEADER": true,
-    "SW_SCOPE": true
+    "SW_SCOPE": true,
+    "GOOGLE_ANALYTICS_CODE": true
   }
 }

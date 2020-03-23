@@ -33,7 +33,8 @@ module.exports = {
                 GITHUB_AUTH: JSON.stringify(false),
                 APP_VERSION: JSON.stringify(packageJson.version),
                 APP_PACKAGE_NAME: JSON.stringify(packageJson.name),
-                SW_SCOPE: JSON.stringify(publicPath)
+                SW_SCOPE: JSON.stringify(publicPath),
+                GOOGLE_ANALYTICS_CODE: JSON.stringify('TRACKING_ID')
             })
         ]
     },
