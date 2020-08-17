@@ -1,50 +1,46 @@
 <template>
-  <div>
-    <b-navbar fixed="top" toggleable="lg" type="light" variant="light">
-      <b-navbar-brand id="navbrand" :to="{ name: 'welcome' }">{{ appName }}</b-navbar-brand>
+  <b-navbar toggleable="lg" type="dark" class="navbar navbar-expand-lg bg-secondary text-uppercase fixed-top" :class="{'navbar-shrink': shrink}" id="mainNav" v-b-scrollspy="60">
+    <b-container>
+      <b-navbar-brand href="#" v-scroll-to="'#page-top'">Firman Taruna Nugraha</b-navbar-brand>
 
-      <b-navbar-toggle target="navbarToggler" />
+      <b-navbar-toggle target="nav-collapse"></b-navbar-toggle>
 
-      <b-collapse is-nav id="navbarToggler">
+      <b-collapse id="nav-collapse" is-nav>
+        <!-- Right aligned nav items -->
         <b-navbar-nav class="ml-auto">
 
-          <locale-dropdown/>
-          
-          <li class="nav-item">
-            <router-link :to="{ name: 'portfolio' }" class="nav-link" active-class="active">
-              {{ $t('portfolio') }}
-            </router-link>
-          </li>
+          <b-nav-item href="#portfolio" v-scroll-to="'#portfolio'">{{ $t('portfolio') }}</b-nav-item>
+          <b-nav-item href="#about" v-scroll-to="'#about'">{{ $t('about') }}</b-nav-item>
+          <b-nav-item href="#contact" v-scroll-to="'#contact'">{{ $t('contact') }}</b-nav-item>
+
+          <LocaleDropdown />
+
         </b-navbar-nav>
       </b-collapse>
-    </b-navbar>
-  </div>
+    </b-container>
+  </b-navbar>
 </template>
 
 <script>
-const LocaleDropdown = () => import('./LocaleDropdown')
+import LocaleDropdown from './LocaleDropdown'
 
 export default {
   components: {
     LocaleDropdown
   },
-
-  data: () => ({
-    appName: APP_NAME
-  })
-}
-</script>
-
-<style scoped>
-.profile-photo {
-  width: 2rem;
-  height: 2rem;
-  margin: -.375rem 0;
-}
-
-@media screen and (max-width: 320px) {
-  #navbrand {
-    max-width: 100px;
+  computed: {
+    shrink() {
+      return this.$store.state.ui.shrink
+    }
+  },
+  methods: {
+    scrollIntoView(evt) {
+      evt.preventDefault()
+      const href = evt.target.getAttribute('href')
+      const el = href ? document.querySelector(href) : null
+      console.log(document.getElementById('#nav-scroller'));
+      document.getElementById('#nav-scroller').scrollTop = el.offsetTop
+    }
   }
 }
-</style>
+</script>

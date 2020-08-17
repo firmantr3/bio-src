@@ -1,133 +1,138 @@
 <template>
-  <div>
-    <h3 class="mb-0">{{ $t('portfolio') }}</h3>
-    <hr class="mt-0">
-    <div class="row text-center">
-
-      <div class="col-md-12 col-lg-4">
-        <b-card class="mb-4">
-          <div @click="showViewer('mobiltravel')">
-            <b-card-img-lazy
-              blank
-              blank-color="#bbb"
-              :src="imgAsset('mobiltravel/motaicon.png')"
-              alt="Mobiltravel Icon"
-            ></b-card-img-lazy>
-          </div>
-
-          <p class="mb-0 mt-2">
-            <a rel="noreferrer" href="https://mobiltravel.id" target="_blank"><b class="text-dark">MobilTravel</b></a> {{ $t('mobiltravel_intro') }}.
-          </p>
-        </b-card>
-
-        <b-card class="mb-4">
-          <div @click="showViewer('sik')">
-            <b-card-img-lazy
-              class="cursor-pointer"
-              blank
-              blank-color="#bbb"
-              alt="Qyta SIK Thumbnail"
-              :src="imgAsset('sik/thumbs/200.qytasik.png')"
-            ></b-card-img-lazy>
-          </div>
-
-          <p class="mb-0 mt-2">
-            <a rel="noreferrer" href="https://mitra.qytatrans.com" target="_blank"><b class="text-dark">QytaTrans SIK</b></a>, {{ $t('qytasik_intro') }}.
-          </p>
-        </b-card>
-      </div>
-
-      <div class="col-md-12 col-lg-4">
-        <b-card class="mb-4">
-          <div @click="showViewer('qytaadmin')">
-            <b-card-img-lazy
-              class="cursor-pointer"
-              blank
-              blank-color="#bbb"
-              alt="Qyta Admin Travel Thumbnail"
-              :src="imgAsset('qytaadmin/thumbs/200.qytaadmin.png')"
-            ></b-card-img-lazy>
-          </div>
-
-          <p class="mb-0 mt-2">
-            <a rel="noreferrer" href="https://qytatrans.com" target="_blank"><b class="text-dark">QytaTrans Schedule &amp; Seat Management</b></a>, {{ $t('qytaadmin_intro') }}.
-          </p>
-        </b-card>
-
-        <b-card class="mb-4">
-          <div @click="showViewer('checklist')">
-            <b-card-img-lazy
-              class="cursor-pointer"
-              blank
-              blank-color="#bbb"
-              alt="Qyta Checklist Thumbnail"
-              :src="imgAsset('checklist/thumbs/200.qytachecklist.png')"
-            ></b-card-img-lazy>
-          </div>
-
-          <p class="mb-0 mt-2">
-            <a rel="noreferrer" href="https://checklistarmada.qytatrans.com" target="_blank"><b class="text-dark">QytaTrans Vehicle Checklist</b></a> {{ $t('qytachecklist_intro') }}.
-          </p>
-        </b-card>
-      </div>
-
-      <div class="col-md-12 col-lg-4">
-        <b-card class="mb-4">
-          <div @click="showViewer('sum')">
-            <b-card-img-lazy
-              class="cursor-pointer"
-              blank
-              blank-color="#bbb"
-              alt="Syirkah Ummat Mulia"
-              :src="imgAsset('sum/thumbs/200.front.png')"
-            ></b-card-img-lazy>
-          </div>
-
-          <p class="mb-0 mt-2">
-            <a rel="noreferrer" href="http://member.syirkahummatmulia.com" target="_blank"><b class="text-dark">Syirkah Ummat Mulia Web App & Mobile API</b></a> {{ $t('sum_intro') }}.
-          </p>
-        </b-card>
-
-        <b-card class="mb-4">
-          <div @click="showViewer('hris')">
-            <b-card-img-lazy
-              class="cursor-pointer"
-              blank
-              blank-color="#bbb"
-              alt="Qyta HRIS Thumbnail"
-              :src="imgAsset('hris/thumbs/200.qytahris.png')"
-            ></b-card-img-lazy>
-          </div>
-
-          <p class="mb-0 mt-2">
-            <a rel="noreferrer" href="https://hris.qytatransgroup.com" target="_blank"><b class="text-dark">QytaTrans HRIS</b></a> {{ $t('qytahris_intro') }}.
-          </p>
-        </b-card>
-
-        <b-card class="mb-4">
-          <div @click="showViewer('smanusa')">
-            <b-card-img-lazy
-              class="cursor-pointer"
-              blank
-              blank-color="#bbb"
-              alt="SMANUSA Website Thumbnail"
-              :src="imgAsset('smanusa/thumbs/200.smanusa.png')"
-            ></b-card-img-lazy>
-          </div>
-
-          <p class="mb-0 mt-2">
-            <a rel="noreferrer" href="https://smanusa.sch.id" target="_blank"><b class="text-dark">SMANUSA High School Website</b></a>,
-            {{ $t('smanusa_intro') }}.
-          </p>
-        </b-card>
-      </div>
-
-      <div id="img-viewer" class="d-none" v-viewer>
-        <img v-for="src in currentImages" :src="imgAsset(src)" :key="src">
-      </div>
-
+  <mysection id="portfolio" class="portfolio">
+    <!-- Portfolio Section Heading-->
+    <h2 class="page-section-heading text-center text-uppercase text-secondary mb-0">{{ $t('portfolio') }}</h2>
+    <!-- Icon Divider-->
+    <div class="divider-custom">
+        <div class="divider-custom-line"></div>
+        <div class="divider-custom-icon">
+          <font-awesome-icon :icon="['fas', 'star']"></font-awesome-icon>
+        </div>
+        <div class="divider-custom-line"></div>
     </div>
-  </div>
+    <!-- Portfolio Grid Items-->
+    <b-card-group columns>
+      <!-- Portfolio Item 1-->
+      <b-card
+        v-for="(portfolio, key) in portfolios"
+        :key="key"
+        :title="$t(`${portfolio.name}.title`)"
+        :img-src="portfolio.image"
+        :img-alt="$t(`${portfolio.name}.title`)"
+        class="portfolio-item"
+        v-b-modal="`modal-${key}`"
+      >
+          <template v-slot:footer>
+            <template v-for="(type, typeKey) in portfolio.types">
+              <b-badge class="mr-1" :key="typeKey">{{type}}</b-badge>
+            </template>
+          </template>
+
+          <b-card-text>
+            {{ shorten($t(`${portfolio.name}.intro`), 100) }} ...
+          </b-card-text>
+
+          <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+              <div class="portfolio-item-caption-content text-center text-white">
+                <font-awesome-icon :icon="['fas', 'eye']"></font-awesome-icon>
+                <br>
+                {{ $t('show_details') }}
+              </div>
+          </div>
+
+          <b-modal no-close-on-esc :id="`modal-${key}`" :title="$t('portfolio_details')" size="lg">
+            <div class="text-center">
+              <!-- Portfolio Modal - Title-->
+              <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0" :id="`portfolioModal${key}Label`">
+                {{$t(`${portfolio.name}.title`)}}
+              </h2>
+              <!-- Icon Divider-->
+              <div class="divider-custom">
+                <div class="divider-custom-line"></div>
+                <div class="divider-custom-icon">
+                  <font-awesome-icon :icon="['fas', 'star']"></font-awesome-icon>
+                </div>
+                <div class="divider-custom-line"></div>
+              </div>
+              <!-- Portfolio Modal - Image-->
+              <b-img-lazy
+                fluid
+                thumbnail
+                rounded
+                blank
+                blank-color="#bbb"
+                :src="portfolio.image"
+                :alt="$t(`${portfolio.name}.title`)"
+                class="mb-2"
+                width="400px"
+                height="300px"
+              ></b-img-lazy>
+              <!-- Portfolio Modal - Text-->
+              <p>
+                {{ $t(`${portfolio.name}.intro`) }}
+              </p>
+
+              <hr>
+
+              <div class="row justify-content-center align-items-center mt-2 mb-3">
+                <div class="col">
+                  Status:
+                  <b-badge class="mr-2" :variant="portfolio.statusVariant">{{portfolio.status}}</b-badge>
+                </div>
+                <div class="col">
+                  {{ $t('category') }}:
+                  <template v-for="(type, typeKey) in portfolio.types">
+                    <b-badge class="mr-2" :key="typeKey">{{type}}</b-badge>
+                  </template>
+                </div>
+                <div class="col">
+                  <a target="_blank" :href="portfolio.link">
+                    {{ $t('visit_link') }}
+                    <font-awesome-icon fixed-width :icon="['fas', 'external-link-alt']"></font-awesome-icon>
+                  </a>
+                </div>
+              </div>
+
+              <hr>
+
+              <h3>{{ $t('screenshots') }}:</h3>
+              <div class="divider-custom">
+                <div class="divider-custom-line"></div>
+                <div class="divider-custom-icon">
+                  <font-awesome-icon :icon="['fas', 'star']"></font-awesome-icon>
+                </div>
+                <div class="divider-custom-line"></div>
+              </div>
+
+              <div :id="`img-viewer-${key}`" v-viewer>
+                
+                <b-card-group columns>
+
+                  <b-card
+                    v-for="(detailImage, detailKey) in portfolio.images"
+                    :key="detailKey"
+                    :img-src="detailImage"
+                    :img-alt="$t(`${portfolio.name}.title`) + ` Image #${detailKey}`"
+                    img-top
+                    class="cursor-pointer"
+                  >
+                  </b-card>
+                </b-card-group>
+              </div>
+
+            </div>
+            <template v-slot:modal-footer>
+              <div class="text-center w-100">
+                <button class="btn btn-primary" @click="$bvModal.hide(`modal-${key}`)">
+                  <font-awesome-icon :icon="['fas', 'times']"></font-awesome-icon>
+                  {{ $t('close_window') }}
+                </button>
+              </div>
+            </template>
+          </b-modal>
+      </b-card>
+    </b-card-group>
+  </mysection>
 </template>
 
 <script>
@@ -136,95 +141,146 @@ import Viewer from 'v-viewer'
 import Vue from 'vue'
 Vue.use(Viewer)
 
+const imgAsset = (filename) => {
+  return API_URL + '/img/' + filename
+}
+
 export default {
-  metaInfo () {
-    return { title: this.$t('portfolio') }
-  },
-
-  data: () => {
-    return {
-      currentImages: [],
-      sum: {
-        images: [
-          'sum/front.png',
-          'sum/home.png',
-          'sum/accounts.png',
-          'sum/reports.png',
-          'sum/report-details.png',
-          'sum/admin.png',
+  data: () => ({
+    portfolios: [
+      {
+        name: 'mobiltravel',
+        image: imgAsset('mobiltravel/thumb.png'),
+        types: [
+          'Backend API'
         ],
-      },
-      smanusa: {
         images: [
-          'smanusa/smanusa.png',
-          'smanusa/home.png',
-          'smanusa/mobile.png',
+          imgAsset('mobiltravel/webhome.png'),
+          imgAsset('mobiltravel/auth.png'),
+          imgAsset('mobiltravel/search.png'),
+          imgAsset('mobiltravel/ticket.png'),
+          imgAsset('mobiltravel/mobile-1.jpg'),
+          imgAsset('mobiltravel/mobile-2.jpg'),
+          imgAsset('mobiltravel/mobile-3.jpg'),
+          imgAsset('mobiltravel/mobile-4.jpg'),
         ],
+        link: 'http://mobiltravel.id',
+        status: 'Active',
+        statusVariant: 'success',
       },
-      mobiltravel: {
+      {
+        name: 'qytasik',
+        image: imgAsset('sik/thumb.jpg'),
+        types: [
+          'Full Stack',
+          'SPA',
+        ],
         images: [
-          'mobiltravel/webhome.png',
-          'mobiltravel/auth.png',
-          'mobiltravel/search.png',
-          'mobiltravel/ticket.png',
-          'mobiltravel/mobile-1.jpg',
-          'mobiltravel/mobile-2.jpg',
-          'mobiltravel/mobile-3.jpg',
-          'mobiltravel/mobile-4.jpg',
+          imgAsset('sik/home.png'),
+          imgAsset('sik/reports.png'),
+          imgAsset('sik/income.png'),
         ],
+        link: 'http://mitra.qytatrans.com',
+        status: 'Active',
+        statusVariant: 'success',
       },
-      qytaadmin: {
+      {
+        name: 'qytaadmin',
+        image: imgAsset('qytaadmin/thumb.jpg'),
+        types: [
+          'Full Stack',
+        ],
         images: [
-          'qytaadmin/qytaadmin.png',
-          'qytaadmin/pemesanan-1.png',
-          'qytaadmin/pemesanan-2.png',
-          'qytaadmin/pemesanan-3.png',
-          'qytaadmin/tiket.png',
-          'qytaadmin/spj.png',
+          imgAsset('qytaadmin/qytaadmin.png'),
+          imgAsset('qytaadmin/pemesanan-1.png'),
+          imgAsset('qytaadmin/pemesanan-2.png'),
+          imgAsset('qytaadmin/pemesanan-3.png'),
+          imgAsset('qytaadmin/tiket.png'),
+          imgAsset('qytaadmin/spj.png'),
         ],
+        link: 'http://cs.qytatrans.com',
+        status: 'Active',
+        statusVariant: 'success',
       },
-      sik: {
+      {
+        name: 'qytachecklist',
+        image: imgAsset('checklist/thumb.png'),
+        types: [
+          'Full Stack',
+          'PWA',
+        ],
         images: [
-          'sik/qytasik.png',
-          'sik/home.png',
-          'sik/reports.png',
-          'sik/income.png',
+          imgAsset('checklist/qytachecklist.png'),
+          imgAsset('checklist/home.png'),
+          imgAsset('checklist/1.png'),
+          imgAsset('checklist/2.png'),
         ],
+        link: 'http://checklistarmada.qytatrans.com',
+        status: 'Active',
+        statusVariant: 'success',
       },
-      checklist: {
+      {
+        name: 'sum',
+        image: imgAsset('sum/thumb.png'),
+        types: [
+          'API',
+          'Full Stack Admin Panel',
+        ],
         images: [
-          'checklist/qytachecklist.png',
-          'checklist/home.png',
-          'checklist/1.png',
-          'checklist/2.png',
+          imgAsset('sum/front.png'),
+          imgAsset('sum/home.png'),
+          imgAsset('sum/accounts.png'),
+          imgAsset('sum/reports.png'),
+          imgAsset('sum/report-details.png'),
+          imgAsset('sum/admin.png'),
         ],
+        link: 'http://member.syirkahummatmulia.com',
+        status: 'Active',
+        statusVariant: 'success',
       },
-      hris: {
+      {
+        name: 'qytahris',
+        image: imgAsset('hris/thumb.png'),
+        types: [
+          'Full Stack',
+          'SPA',
+        ],
         images: [
-          'hris/qytahris.png',
-          'hris/1.png',
+          imgAsset('hris/qytahris.png'),
+          imgAsset('hris/1.png'),
         ],
+        link: 'http://hris.qytatrans.com',
+        status: 'Active',
+        statusVariant: 'success',
       },
-    }
-  },
-
+      {
+        name: 'smanusa',
+        image: imgAsset('smanusa/thumbs/200.smanusa.png'),
+        types: [
+          'Full Stack',
+          'SPA',
+        ],
+        images: [
+          imgAsset('smanusa/smanusa.png'),
+          imgAsset('smanusa/home.png'),
+          imgAsset('smanusa/mobile.png'),
+        ],
+        link: 'http://smanusa.sch.id',
+        status: 'Replaced',
+        statusVariant: 'warning',
+      },
+    ]
+  }),
   methods: {
-
-    imgAsset(filename) {
-      return API_URL + '/img/' + filename
-    },
-
-    showViewer(collection) {
-      this.currentImages = this[collection].images;
-      let viewer = this.$el.querySelector('#img-viewer').$viewer;
-      viewer.view(0).show();
+    shorten(str, maxLen, separator = ' ') {
+      if (str.length <= maxLen) return str;
+      return str.substr(0, str.lastIndexOf(separator, maxLen));
     }
-
   }
 }
 </script>
 
-<style lang="scss" scoped>
+<style scoped>
   .cursor-pointer {
     cursor: pointer;
   }

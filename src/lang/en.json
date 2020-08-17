@@ -34,15 +34,52 @@
   "update_available": "New version is available.",
   "update_now": "Update now?",
   "portfolio": "Portfolio",
+  "portfolio_details": "Portfolio Details",
   "contact_me": "Contact Me",
   "hi_my_name_is": "Hi, my name is",
   "short_intro": "i'm a professional web application and services programmer since 2014. Proficiencies include PHP Laravel, MySQL, MongoDB, Vue JS, React JS, full stack and REST API",
   "contact_me_via": "Contact me via",
-  "mobiltravel_intro": "seat reservation platform, book transport ticket on the go. I lead the backend team and contributed for the app architecture design principal",
-  "qytasik_intro": "proprietary monitoring web based app for QytaTrans Travel's Investors internal use. I have develop this app fullstack from backend to frontend",
-  "qytaadmin_intro": "proprietary web based app for QytaTrans Travel internal use. I have develop this app fullstack from backend to frontend",
-  "qytachecklist_intro": "proprietary vehicle checklist progressive web app (PWA) for QytaTrans Travel internal use. I'm the lead developer for this app development fullstack from backend to frontend",
-  "qytahris_intro": "a legacy human resource information system web based app for QytaTrans Travel internal use. I've made small updates and maintenance on this app",
-  "smanusa_intro": "a SMA NU 1 Kemranjen's high school profile website. I have develop this website with PHP core without framework on my early career as web developer",
-  "sum_intro": "is a coop system that able to provide crowdfunding capability too. I have developed the backend mobile API that implements JWT authentication on top of PHP Laravel includiing the frontend for administrator and member each"
+  "find_me_on": "You can find me on",
+  "about": "About",
+  "contact": "Contact",
+  "screenshots": "Screenshots",
+  "show_details": "Show Details",
+  "category": "Category",
+  "close_window": "Close Window",
+  "visit_link": "Visit Link",
+
+  "qytasik": {
+    "title": "SIK (Partnership Information System) Qyta Trans",
+    "intro": "Proprietary monitoring web based app for QytaTrans Travel's Investors internal use. I have develop this app fullstack from backend to frontend."
+  },
+
+  "mobiltravel": {
+    "title": "Mobiltravel Mobile & Web App",
+    "intro": "Seat reservation platform, book transport ticket on the go. I lead the backend team and contributed for the app architecture design principal."
+  },
+
+  "qytachecklist": {
+    "title": "Qyta Trans Vehicle Checklist",
+    "intro": "Proprietary vehicle checklist progressive web app (PWA) for QytaTrans Travel internal use. I'm the lead developer for this app development fullstack from backend to frontend."
+  },
+
+  "qytahris": {
+    "title": "Human Resource Information System Qyta Trans",
+    "intro": "A legacy human resource information system web based app for QytaTrans Travel internal use. I've made small updates and maintenance on this app."
+  },
+
+  "smanusa": {
+    "title": "SMANUSA Highschool Website",
+    "intro": "Website profil dari SMA NU 1 Kemranjen. Saya membangun website ini menggunakan PHP core tanpa framework saat saya masih baru memulai karir sebagai web developer."
+  },
+
+  "sum": {
+    "title": "Syirkah Ummat Backend & Admin",
+    "intro": "A website for SMA NU 1 Kemranjen's high school profile. I have developed this website with PHP core without framework on my early career as web developer."
+  },
+
+  "qytaadmin": {
+    "title": "Qyta Trans Travel Admin",
+    "intro": "Proprietary web based app for QytaTrans Travel internal use. I have develop this app fullstack from backend to frontend."
+  }
 }

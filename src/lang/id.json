@@ -34,15 +34,52 @@
   "update_available": "Versi baru tersedia",
   "update_now": "Update sekarang?",
   "portfolio": "Portofolio",
+  "portfolio_details": "Detail Portofolio",
   "contact_me": "Kontak Saya",
-  "hi_my_name_is": "Hai, nama saya",
-  "short_intro": "saya adalah programmer aplikasi dan servis web profesional sejak tahun 2014. Keahlian saya mencakup PHP Laravel, MySQL, MongoDB, Vue JS, React JS, full stack dan REST API",
+  "hi_my_name_is": "Hai, perkenalkan nama saya",
+  "short_intro": "Saya adalah programmer aplikasi dan servis web profesional sejak tahun 2014. Keahlian saya mencakup PHP Laravel, MySQL, MongoDB, Vue JS, React JS, full stack dan REST API",
   "contact_me_via": "Hubungi saya lewat",
-  "mobiltravel_intro": "platform reservasi kursi, pesan tiket travel online kapan saja dan dimana saja. Saya bekerja sebagai lead programmer dan berkontribusi pada desain dan development arsitektur backend dari aplikasi ini",
-  "qytasik_intro": "aplikasi monitoring berbasis web diperuntukkan bagi Investor QytaTrans Travel. Saya telah mengerjakan aplikasi ini fullstack dari backend hingga frontend",
-  "qytaadmin_intro": "aplikasi utama QytaTrans Travel berbasis web intuk pemakaian internal. Saya telah mengerjakan aplikasi ini fullstack dari backend hingga frontend",
-  "qytachecklist_intro": "aplikasi web progresif (PWA) checklist armada QytaTrans Travel intuk pemakaian internal. Saya memimpin pengerjaan aplikasi ini fullstack dari backend hingga frontend",
-  "qytahris_intro": "adalah sistem informasi karyawan berbasis web untuk internal QytaTrans Travel. Saya melakukan sedikit pembaruan dan perbaikan pada aplikasi ini",
-  "smanusa_intro": "website profil dari SMA NU 1 Kemranjen. Saya membangun website ini menggunakan PHP core tanpa framework saat saya masih baru memulai karir sebagai web developer",
-  "sum_intro": "yaitu sistem koperasi dan platform crowdfunding. Saya develop backend mobile API dengan otentikasi JWT dengan PHP laravel beserta frontend admin & membernya"
+  "find_me_on": "Anda dapat menemukan saya di",
+  "about": "Tentang",
+  "contact": "Kontak",
+  "screenshots": "Tangkapan Layar",
+  "show_details": "Lihat Detail",
+  "category": "Kategori",
+  "close_window": "Tutup Jendela",
+  "visit_link": "Kunjungi Link",
+
+  "qytasik": {
+    "title": "Sistem Informasi Kemitraan Qyta Trans",
+    "intro": "Aplikasi monitoring berbasis web diperuntukkan bagi Investor QytaTrans Travel. Saya telah mengerjakan aplikasi ini fullstack dari backend hingga frontend."
+  },
+
+  "mobiltravel": {
+    "title": "Mobiltravel Mobile & Web App",
+    "intro": "Platform reservasi kursi, pesan tiket travel online kapan saja dan dimana saja. Saya bekerja sebagai lead programmer dan berkontribusi pada desain dan development arsitektur backend dari aplikasi ini."
+  },
+
+  "qytachecklist": {
+    "title": "Qyta Trans Checklist Armada",
+    "intro": "Aplikasi web progresif (PWA) checklist armada QytaTrans Travel intuk pemakaian internal. Saya memimpin pengerjaan aplikasi ini fullstack dari backend hingga frontend."
+  },
+
+  "qytahris": {
+    "title": "Sistem Informasi Karyawan (HRIS) Qyta Trans",
+    "intro": "Adalah sistem informasi karyawan berbasis web untuk internal QytaTrans Travel. Saya melakukan sedikit pembaruan dan perbaikan pada aplikasi ini."
+  },
+
+  "smanusa": {
+    "title": "SMANUSA Highschool Website",
+    "intro": "Website profil dari SMA NU 1 Kemranjen. Saya membangun website ini menggunakan PHP core tanpa framework saat saya masih baru memulai karir sebagai web developer."
+  },
+
+  "sum": {
+    "title": "Syirkah Ummat Backend & Admin",
+    "intro": "Yaitu sistem koperasi dan platform crowdfunding. Saya develop backend mobile API dengan otentikasi JWT dengan PHP laravel beserta frontend admin & membernya."
+  },
+
+  "qytaadmin": {
+    "title": "Qyta Trans Travel Admin",
+    "intro": "Aplikasi utama QytaTrans Travel berbasis web intuk pemakaian internal termasuk reservasi kursi, setoran driver, hingga laporan keuangan. Saya telah mengerjakan aplikasi ini fullstack dari backend hingga frontend."
+  }
 }
