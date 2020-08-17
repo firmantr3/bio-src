@@ -32,15 +32,6 @@ export default {
     shrink() {
       return this.$store.state.ui.shrink
     }
-  },
-  methods: {
-    scrollIntoView(evt) {
-      evt.preventDefault()
-      const href = evt.target.getAttribute('href')
-      const el = href ? document.querySelector(href) : null
-      console.log(document.getElementById('#nav-scroller'));
-      document.getElementById('#nav-scroller').scrollTop = el.offsetTop
-    }
   }
 }
 </script>
