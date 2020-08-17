@@ -69,12 +69,12 @@
   },
 
   "smanusa": {
-    "title": "SMANUSA Highschool Website",
+    "title": "Website Sekolah SMANUSA Kemranjen",
     "intro": "Website profil dari SMA NU 1 Kemranjen. Saya membangun website ini menggunakan PHP core tanpa framework saat saya masih baru memulai karir sebagai web developer."
   },
 
   "sum": {
-    "title": "Syirkah Ummat Backend & Admin",
+    "title": "Syirkah Ummat Mobile Backend & Admin",
     "intro": "Yaitu sistem koperasi dan platform crowdfunding. Saya develop backend mobile API dengan otentikasi JWT dengan PHP laravel beserta frontend admin & membernya."
   },
 
