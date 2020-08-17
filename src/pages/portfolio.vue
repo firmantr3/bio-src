@@ -254,6 +254,38 @@ export default {
         statusVariant: 'success',
       },
       {
+        name: 'qytabot',
+        image: imgAsset('qytabot/thumb.png'),
+        types: [
+          'API',
+        ],
+        images: [
+          imgAsset('qytabot/customer1.png'),
+          imgAsset('qytabot/customer2.png'),
+          imgAsset('qytabot/ops1.png'),
+          imgAsset('qytabot/ops2.png'),
+          imgAsset('qytabot/checker1.png'),
+          imgAsset('qytabot/checker2.png'),
+        ],
+        link: 'http://t.me/qytatransbot',
+        status: 'Active',
+        statusVariant: 'success',
+      },
+      {
+        name: 'idiymotor',
+        image: imgAsset('idiymotor/thumb.png'),
+        types: [
+          'Full Stack Customer',
+          'Full Stack Admin',
+        ],
+        images: [
+          imgAsset('idiymotor/home.png'),
+        ],
+        link: 'http://insurediy.com.my/car-insurance',
+        status: 'Active',
+        statusVariant: 'success',
+      },
+      {
         name: 'smanusa',
         image: imgAsset('smanusa/thumbs/200.smanusa.png'),
         types: [

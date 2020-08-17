@@ -81,5 +81,15 @@
   "qytaadmin": {
     "title": "Qyta Trans Travel Admin",
     "intro": "Aplikasi utama QytaTrans Travel berbasis web intuk pemakaian internal termasuk reservasi kursi, setoran driver, hingga laporan keuangan. Saya telah mengerjakan aplikasi ini fullstack dari backend hingga frontend."
+  },
+
+  "qytabot": {
+    "title": "Telegram Bot Qyta Trans",
+    "intro": "Telegram untuk manajemen cepat operasional kantor, pesan tiket untuk customer, dan ceklis kendaraan."
+  },
+
+  "idiymotor": {
+    "title": "Asuransi Kendaraan InsureDIY Malaysia",
+    "intro": "Memudahkan customer untuk membandingkan produk asuransi untuk kendaraan yang akan anda daftarkan dengan beberapa layanan asuransi sekaligus yang tersedia."
   }
 }

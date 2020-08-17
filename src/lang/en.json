@@ -81,5 +81,15 @@
   "qytaadmin": {
     "title": "Qyta Trans Travel Admin",
     "intro": "Proprietary web based app for QytaTrans Travel internal use. I have develop this app fullstack from backend to frontend."
+  },
+
+  "qytabot": {
+    "title": "Qyta Trans Telegram Bot",
+    "intro": "Telegram bot for quickly manage for office, booking tickets for customer, and vehicle checking for checkers."
+  },
+
+  "idiymotor": {
+    "title": "InsureDIY Malaysia's Car Insurance",
+    "intro": "Makes it easy to compare multiple insurance product for your car."
   }
 }
