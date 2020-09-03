@@ -24,7 +24,7 @@
       >
           <template v-slot:footer>
             <template v-for="(type, typeKey) in portfolio.types">
-              <b-badge class="mr-1" :key="typeKey">{{type}}</b-badge>
+              <b-badge class="mr-1" :key="typeKey" :variant="type[1]">{{type[0]}}</b-badge>
             </template>
           </template>
 
@@ -152,9 +152,10 @@ export default {
         name: 'mobiltravel',
         image: imgAsset('mobiltravel/thumb.png'),
         types: [
-          'Backend API'
+          ['API', 'success'],
         ],
         images: [
+          imgAsset('mobiltravel/contribution.png'),
           imgAsset('mobiltravel/webhome.png'),
           imgAsset('mobiltravel/auth.png'),
           imgAsset('mobiltravel/search.png'),
@@ -172,8 +173,9 @@ export default {
         name: 'qytasik',
         image: imgAsset('sik/thumb.jpg'),
         types: [
-          'Full Stack',
-          'SPA',
+          ['Full Stack', 'primary'],
+          ['SPA', 'secondary'],
+          ['API', 'success'],
         ],
         images: [
           imgAsset('sik/home.png'),
@@ -188,9 +190,10 @@ export default {
         name: 'qytaadmin',
         image: imgAsset('qytaadmin/thumb.jpg'),
         types: [
-          'Full Stack',
+          ['Full Stack', 'primary'],
         ],
         images: [
+          imgAsset('qytaadmin/contribution.png'),
           imgAsset('qytaadmin/qytaadmin.png'),
           imgAsset('qytaadmin/pemesanan-1.png'),
           imgAsset('qytaadmin/pemesanan-2.png'),
@@ -206,8 +209,9 @@ export default {
         name: 'qytachecklist',
         image: imgAsset('checklist/thumb.png'),
         types: [
-          'Full Stack',
-          'PWA',
+          ['Full Stack', 'primary'],
+          ['PWA', 'secondary'],
+          ['API', 'success'],
         ],
         images: [
           imgAsset('checklist/qytachecklist.png'),
@@ -223,10 +227,11 @@ export default {
         name: 'sum',
         image: imgAsset('sum/thumb.png'),
         types: [
-          'API',
-          'Full Stack Admin Panel',
+          ['API', 'success'],
+          ['Full Stack', 'primary'],
         ],
         images: [
+          imgAsset('sum/contribution.png'),
           imgAsset('sum/front.png'),
           imgAsset('sum/home.png'),
           imgAsset('sum/accounts.png'),
@@ -242,8 +247,7 @@ export default {
         name: 'qytahris',
         image: imgAsset('hris/thumb.png'),
         types: [
-          'Full Stack',
-          'SPA',
+          ['Full Stack', 'primary'],
         ],
         images: [
           imgAsset('hris/qytahris.png'),
@@ -257,7 +261,7 @@ export default {
         name: 'qytabot',
         image: imgAsset('qytabot/thumb.png'),
         types: [
-          'API',
+          ['API', 'success'],
         ],
         images: [
           imgAsset('qytabot/customer1.png'),
@@ -275,8 +279,7 @@ export default {
         name: 'idiymotor',
         image: imgAsset('idiymotor/thumb.png'),
         types: [
-          'Full Stack Customer',
-          'Full Stack Admin',
+          ['Full Stack', 'primary'],
         ],
         images: [
           imgAsset('idiymotor/home.png'),
@@ -289,8 +292,7 @@ export default {
         name: 'smanusa',
         image: imgAsset('smanusa/thumbs/200.smanusa.png'),
         types: [
-          'Full Stack',
-          'SPA',
+          ['Full Stack', 'primary'],
         ],
         images: [
           imgAsset('smanusa/smanusa.png'),

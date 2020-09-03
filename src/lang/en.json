@@ -55,7 +55,7 @@
 
   "mobiltravel": {
     "title": "Mobiltravel Mobile & Web App",
-    "intro": "Seat reservation platform, book transport ticket on the go. I lead the backend team and contributed for the app architecture design principal."
+    "intro": "Seat reservation platform, book transport ticket on the go. I lead the backend team and contributed for the app architecture design principal. I also developed & documented most of the API."
   },
 
   "qytachecklist": {
@@ -70,26 +70,26 @@
 
   "smanusa": {
     "title": "SMANUSA Kemranjen Highschool Website",
-    "intro": "Website profil dari SMA NU 1 Kemranjen. Saya membangun website ini menggunakan PHP core tanpa framework saat saya masih baru memulai karir sebagai web developer."
+    "intro": "A SMA NU 1 Kemranjen's high school profile website. I have develop this website with PHP core without framework on my early career as web developer."
   },
 
   "sum": {
     "title": "Syirkah Ummat Backend & Admin",
-    "intro": "A website for SMA NU 1 Kemranjen's high school profile. I have developed this website with PHP core without framework on my early career as web developer."
+    "intro": "A coop system that able to provide crowdfunding capability too. I have developed the backend mobile API that implements JWT authentication on top of PHP Laravel includiing the frontend for administrator and member each."
   },
 
   "qytaadmin": {
     "title": "Qyta Trans Travel Admin",
-    "intro": "Proprietary web based app for QytaTrans Travel internal use. I have develop this app fullstack from backend to frontend."
+    "intro": "Proprietary web based app for QytaTrans Travel internal use. I have developed this app fullstack from backend to frontend."
   },
 
   "qytabot": {
     "title": "Qyta Trans Telegram Bot",
-    "intro": "Telegram bot for quickly manage for office, booking tickets for customer, and vehicle checking for checkers."
+    "intro": "Telegram bot for quick reports, booking tickets for customer, and vehicle checking for checkers."
   },
 
   "idiymotor": {
     "title": "InsureDIY Malaysia's Car Insurance",
-    "intro": "Makes it easy to compare multiple insurance product for your car."
+    "intro": "Makes it easy to buy & compare multiple insurance product for your car in Malaysia."
   }
 }
