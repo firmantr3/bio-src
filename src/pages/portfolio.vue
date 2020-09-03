@@ -82,7 +82,7 @@
                 <div class="col">
                   {{ $t('category') }}:
                   <template v-for="(type, typeKey) in portfolio.types">
-                    <b-badge class="mr-2" :key="typeKey">{{type}}</b-badge>
+                    <b-badge class="mr-2" :key="typeKey" :variant="type[1]">{{type[0]}}</b-badge>
                   </template>
                 </div>
                 <div class="col">
