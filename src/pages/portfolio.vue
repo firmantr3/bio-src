@@ -259,7 +259,7 @@ export default {
       },
       {
         name: 'qytabot',
-        image: imgAsset('qytabot/thumb.png'),
+        image: imgAsset('qytabot/thumb20200903.png'),
         types: [
           ['API', 'success'],
         ],
