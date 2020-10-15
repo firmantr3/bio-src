@@ -23,19 +23,17 @@ export default {
     Firman
   },
   created () {
-      let debouncedHandleScroll = _.debounce(this.handleScroll, 100);
-      let debouncedHandleResize = _.debounce(this.handleResize, 100);
-      window.addEventListener('scroll', debouncedHandleScroll);
-      window.addEventListener('resize', debouncedHandleResize);
   },
   mounted() {
-    this.updateSidebar(this.checkSidebar());
+    this.$nextTick(() => {
+      window.addEventListener('scroll', _.debounce(this.handleScroll, 1000));
+      window.addEventListener('resize', _.debounce(this.handleResize, 1000));
+      this.updateSidebar(this.checkSidebar());
+    })
   },
   destroyed () {
-      let debouncedHandleScroll = _.debounce(this.handleScroll, 100);
-      let debouncedHandleResize = _.debounce(this.handleResize, 100);
-      window.removeEventListener('scroll', debouncedHandleScroll);
-      window.removeEventListener('resize', debouncedHandleResize);
+      window.removeEventListener('scroll', _.debounce(this.handleScroll, 1000));
+      window.removeEventListener('resize', _.debounce(this.handleResize, 1000));
   },
   methods: {
     handleScroll () {
