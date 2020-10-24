@@ -1,13 +1,13 @@
 <template>
   <div id="nav-scroller" ref="content">
     <!-- Portfolio Section-->
-    <Portfolio />
+    <portfolio />
     <!-- About Section-->
-    <About />
+    <about />
     <!-- Contact Section-->
-    <Contact />
+    <contact />
     <!-- Copyright Section-->
-    <Copyright />
+    <copyright />
     <!-- Scroll to Top Button (Only visible on small and extra-small screen sizes)-->
     <transition name="fade">
         <div class="scroll-to-top d-lg-none position-fixed" v-if="shrink" :style="{'display': sidebar ? 'none' : 'block'}">
@@ -20,17 +20,12 @@
 </template>
 
 <script>
-import Portfolio from '@/pages/portfolio'
-import About from '@/pages/about'
-import Contact from '@/pages/contact'
-import Copyright from '@/components/Copyright'
-
 export default {
   components: {
-    Portfolio,
-    About,
-    Contact,
-    Copyright
+    portfolio: () => import('@/pages/portfolio').then(m => m.default || m),
+    about: () => import('@/pages/about').then(m => m.default || m),
+    contact: () => import('@/pages/contact').then(m => m.default || m),
+    copyright: () => import('@/components/Copyright').then(m => m.default || m)
   },
   computed: {
     shrink() {
