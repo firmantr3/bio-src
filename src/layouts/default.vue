@@ -15,7 +15,7 @@
 import Navbar from '@/components/Navbar'
 import Firman from '@/components/Firman'
 import {mapMutations} from 'vuex'
-import _ from 'lodash'
+import { debounce } from 'lodash'
 
 export default {
   components: {
@@ -26,14 +26,14 @@ export default {
   },
   mounted() {
     this.$nextTick(() => {
-      window.addEventListener('scroll', _.debounce(this.handleScroll, 1000));
-      window.addEventListener('resize', _.debounce(this.handleResize, 1000));
+      window.addEventListener('scroll', debounce(this.handleScroll, 1000));
+      window.addEventListener('resize', debounce(this.handleResize, 1000));
       this.updateSidebar(this.checkSidebar());
     })
   },
   destroyed () {
-      window.removeEventListener('scroll', _.debounce(this.handleScroll, 1000));
-      window.removeEventListener('resize', _.debounce(this.handleResize, 1000));
+      window.removeEventListener('scroll', debounce(this.handleScroll, 1000));
+      window.removeEventListener('resize', debounce(this.handleResize, 1000));
   },
   methods: {
     handleScroll () {
