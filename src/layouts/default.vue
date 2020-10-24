@@ -12,8 +12,8 @@
 </template>
 
 <script>
-const Navbar = () => import('@/components/Navbar').then(m => m.default || m);
-const Firman = () => import('@/components/Firman').then(m => m.default || m);
+import Navbar from '@/components/Navbar'
+import Firman from '@/components/Firman'
 import {mapMutations} from 'vuex'
 import { debounce } from 'lodash'
 

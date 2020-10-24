@@ -20,10 +20,10 @@
 </template>
 
 <script>
-const Portfolio = () => import('@/pages/portfolio').then(m => m.default || m);
-const About = () => import('@/pages/about').then(m => m.default || m);
-const Contact = () => import('@/pages/contact').then(m => m.default || m);
-const Copyright = () => import('@/components/Copyright').then(m => m.default || m);
+import Portfolio from '@/pages/portfolio'
+import About from '@/pages/about'
+import Contact from '@/pages/contact'
+import Copyright from '@/components/Copyright'
 
 export default {
   components: {
