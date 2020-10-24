@@ -1,7 +1,7 @@
 import Vue from 'vue'
-import Child from './Child'
+const Child = () => import('./Child').then(m => m.default || m)
+const Mysection = () => import('./Mysection').then(m => m.default || m)
 import { HasError, AlertError, AlertSuccess } from 'vform'
-import Mysection from './Mysection'
 
 // Components that are registered globaly.
 [
