@@ -12,13 +12,15 @@
 </template>
 
 <script>
+import Navbar from '@/components/Navbar'
+import Firman from '@/components/Firman'
 import {mapMutations} from 'vuex'
 import { debounce } from 'lodash'
 
 export default {
   components: {
-    navbar: () => import('@/components/Navbar'),
-    firman: () => import('@/components/Firman'),
+    Navbar,
+    Firman
   },
   created () {
   },
