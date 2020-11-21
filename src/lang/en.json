@@ -91,5 +91,10 @@
   "idiymotor": {
     "title": "InsureDIY Malaysia's Car Insurance",
     "intro": "Makes it easy to buy & compare multiple insurance product for your car in Malaysia."
+  },
+
+  "jdihkemenpppa": {
+    "title": "JDIH Kemen PPPA",
+    "intro": "The JDIH Kemen PPPA is an android-based mobile application that contains Legislation and Legal Products issued by the Ministry of Women's Empowerment and Child Protection, and is a means of disseminating legal information related to women's empowerment and child protection."
   }
 }

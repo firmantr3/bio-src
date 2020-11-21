@@ -91,5 +91,10 @@
   "idiymotor": {
     "title": "Asuransi Kendaraan InsureDIY Malaysia",
     "intro": "Memudahkan customer untuk membandingkan produk asuransi untuk kendaraan yang akan anda daftarkan dengan beberapa layanan asuransi sekaligus yang tersedia."
+  },
+
+  "jdihkemenpppa": {
+    "title": "JDIH Kemen PPPA",
+    "intro": "JDIH Kemen PPPA merupakan aplikasi berbasis mobile android yang memuat Peraturan Perundang-undangan dan Produk Hukum yang diterbitkan oleh Kementerian Pemberdayaan Perempuan dan Perlindungan Anak, serta merupakan sarana penyerbarluasan informasi hukum terkait pemberdayaan perempuan dan perlindungan anak."
   }
 }

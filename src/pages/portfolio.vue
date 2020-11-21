@@ -74,6 +74,15 @@
 
               <hr>
 
+              <p>
+                Uses:
+                <span v-for="(use, useKey) in portfolio.uses" :key="useKey">
+                  <b-badge class="mr-2" variant="dark">{{ use }}</b-badge>
+                </span>
+              </p>
+
+              <hr>
+
               <div class="row justify-content-center align-items-center mt-2 mb-3">
                 <div class="col">
                   Status:
@@ -168,6 +177,13 @@ export default {
         link: 'http://mobiltravel.id',
         status: 'Active',
         statusVariant: 'success',
+        uses: [
+          'Laravel',
+          'PHP',
+          'MySQL',
+          'Mongo DB',
+          'Redis',
+        ],
       },
       {
         name: 'qytasik',
@@ -185,6 +201,40 @@ export default {
         link: 'http://mitra.qytatrans.com',
         status: 'Active',
         statusVariant: 'success',
+        uses: [
+          'Vue JS',
+          'Javascript',
+          'Laravel',
+          'PHP',
+          'MySQL',
+          'Bootstrap CSS',
+        ],
+      },
+      {
+        name: 'qytachecklist',
+        image: imgAsset('checklist/thumb.png'),
+        types: [
+          ['Full Stack', 'primary'],
+          ['PWA', 'secondary'],
+          ['API', 'success'],
+        ],
+        images: [
+          imgAsset('checklist/qytachecklist.png'),
+          imgAsset('checklist/home.png'),
+          imgAsset('checklist/1.png'),
+          imgAsset('checklist/2.png'),
+        ],
+        link: 'http://checklistarmada.qytatrans.com',
+        status: 'Active',
+        statusVariant: 'success',
+        uses: [
+          'Vue JS',
+          'Javascript',
+          'Laravel',
+          'PHP',
+          'MySQL',
+          'Bootstrap CSS',
+        ],
       },
       {
         name: 'qytaadmin',
@@ -204,24 +254,14 @@ export default {
         link: 'http://cs.qytatrans.com',
         status: 'Active',
         statusVariant: 'success',
-      },
-      {
-        name: 'qytachecklist',
-        image: imgAsset('checklist/thumb.png'),
-        types: [
-          ['Full Stack', 'primary'],
-          ['PWA', 'secondary'],
-          ['API', 'success'],
+        uses: [
+          'Vue JS',
+          'Javascript',
+          'Laravel',
+          'PHP',
+          'MySQL',
+          'Bootstrap CSS',
         ],
-        images: [
-          imgAsset('checklist/qytachecklist.png'),
-          imgAsset('checklist/home.png'),
-          imgAsset('checklist/1.png'),
-          imgAsset('checklist/2.png'),
-        ],
-        link: 'http://checklistarmada.qytatrans.com',
-        status: 'Active',
-        statusVariant: 'success',
       },
       {
         name: 'sum',
@@ -242,6 +282,13 @@ export default {
         link: 'http://member.syirkahummatmulia.com',
         status: 'Active',
         statusVariant: 'success',
+        uses: [
+          'Javascript',
+          'Laravel',
+          'PHP',
+          'MySQL',
+          'Bootstrap CSS',
+        ],
       },
       {
         name: 'qytahris',
@@ -256,6 +303,13 @@ export default {
         link: 'http://hris.qytatrans.com',
         status: 'Active',
         statusVariant: 'success',
+        uses: [
+          'Javascript',
+          'Codeigniter',
+          'PHP',
+          'MySQL',
+          'Bootstrap CSS',
+        ],
       },
       {
         name: 'qytabot',
@@ -274,6 +328,36 @@ export default {
         link: 'http://t.me/qytatransbot',
         status: 'Active',
         statusVariant: 'success',
+        uses: [
+          'PHP',
+          'MySQL',
+        ],
+      },
+      {
+        name: 'jdihkemenpppa',
+        image: imgAsset('jdihkemenpppa/1.jpeg'),
+        types: [
+          ['Mobile App', 'info'],
+          ['API', 'success'],
+        ],
+        images: [
+          imgAsset('jdihkemenpppa/1.jpeg'),
+          imgAsset('jdihkemenpppa/2.jpeg'),
+          imgAsset('jdihkemenpppa/3.jpeg'),
+          imgAsset('jdihkemenpppa/4.jpeg'),
+          imgAsset('jdihkemenpppa/5.jpeg'),
+          imgAsset('jdihkemenpppa/6.jpeg'),
+        ],
+        link: 'https://play.google.com/store/apps/details?id=id.go.kemenpppa.jdih',
+        status: 'Active',
+        statusVariant: 'success',
+        uses: [
+          'React Native (Expo)',
+          'Javascript',
+          'Laravel API',
+          'PHP',
+          'MySQL',
+        ],
       },
       {
         name: 'idiymotor',
@@ -287,6 +371,13 @@ export default {
         link: 'http://insurediy.com.my/car-insurance',
         status: 'Active',
         statusVariant: 'success',
+        uses: [
+          'Javascript',
+          'Joomla CMS',
+          'PHP',
+          'MySQL',
+          'Bootstrap CSS',
+        ],
       },
       {
         name: 'smanusa',
@@ -302,6 +393,12 @@ export default {
         link: 'http://smanusa.sch.id',
         status: 'Replaced',
         statusVariant: 'warning',
+        uses: [
+          'Javascript',
+          'PHP',
+          'MySQL',
+          'Bootstrap CSS',
+        ],
       },
     ]
   }),
@@ -317,5 +414,8 @@ export default {
 <style scoped>
   .cursor-pointer {
     cursor: pointer;
+  }
+  ul.uses li {
+    text-align: initial;
   }
 </style>
