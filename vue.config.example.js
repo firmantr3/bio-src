@@ -9,7 +9,7 @@ const pwaArgs = {
 };
 
 const publicPath = process.env.NODE_ENV === 'production'
-    ? '/ftn-vue-pwa-demo/'
+    ? '/'
     : '/'
 
 module.exports = {
