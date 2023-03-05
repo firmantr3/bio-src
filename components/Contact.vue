@@ -12,8 +12,8 @@
     </div>
     <!-- Contact Section Form-->
 
-    <p>
-      {{ $t('find_me_on') }}:
+    <p v-for="(paragraph, index) in $t(`find_me_on`).split('\\n\\n')" :key="index">
+      {{ paragraph }}
     </p>
     
     <p>

@@ -14,8 +14,8 @@
     <p>
       {{ $t('hi_my_name_is') }} <b>Firman Taruna Nugraha</b>, 
     </p>
-    <p>
-      {{ $t('short_intro') }}.
+    <p v-for="(paragraph, index) in $t(`short_intro`).split('\\n\\n')" :key="index">
+      {{ paragraph }}
     </p>
 
   </Mysection>

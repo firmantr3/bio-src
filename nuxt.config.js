@@ -39,6 +39,7 @@ export default {
 
   // Modules for dev and build (recommended): https://go.nuxtjs.dev/config-modules
   buildModules: [
+    '@nuxtjs/pwa',
   ],
 
   // Modules: https://go.nuxtjs.dev/config-modules
@@ -97,10 +98,10 @@ export default {
           "portfolio": "Portfolio",
           "portfolio_details": "Portfolio Details",
           "contact_me": "Contact Me",
-          "hi_my_name_is": "Hi, my name is",
-          "short_intro": "i'm a professional web application and services programmer since 2014. Proficiencies include PHP Laravel, MySQL, MongoDB, Vue JS, React JS, full stack and REST API",
+          "hi_my_name_is": "Welcome to my portfolio website! My name is",
+          "short_intro": "I am a web developer with a focus on backend API development. I have been working as a professional software developer since 2014, and I have a passion for building dynamic and innovative web applications that help businesses meet their goals and engage with their audiences.\\n\\nWith years of experience in the industry, I have honed my skills in web development, including expertise in Laravel, VueJS, Nuxt, ReactJS, and React Native.This has enabled me to not only develop web applications but also mobile apps for both Android and iOS platforms.\\n\\nIn my current role at InsureDIY, my team and I have developed a website that utilizes Nuxt for the customer site, VueJS for the admin panel, and Laravel as the backend API.I am proud to have created an architecture that enables administrators to manage forms dynamically, which has been crucial in selling financial products effectively.Additionally, I developed a custom newsletter feature that integrated with our customer data, leading to increased customer engagement and sales growth.\\n\\nThroughout my career, I have used MongoDB in various projects and successfully integrated payment gateway services like Midtrans and paydollar.These integrations were crucial in enabling our clients to securely process transactions and improve their overall user experience.\\n\\nI am open to any project as my side job and always looking for new and exciting challenges.My first job in a company was as a programmer for PT Qyta Trans, where I worked from 2014 to 2019. After that, I joined InsureDIY as a software developer and have been working here since then.I have a stable record of working for companies and always strive to deliver high- quality work on time.\\n\\nThank you for taking the time to visit my website.If you have any questions or would like to discuss a potential project, please feel free to contact me.i'm a professional web application and services programmer since 2014. Proficiencies include PHP Laravel, MySQL, MongoDB, Vue JS, React JS, full stack and REST API.",
           "contact_me_via": "Contact me via",
-          "find_me_on": "You can find me on",
+          "find_me_on": "Thank you for visiting my portfolio site. If you have any questions, comments, or opportunities for collaboration, please feel free to reach out to me using any of the links below or send me an email at firmantr3[at]gmail.com. I am available for freelance work and open to discussing potential projects.\\n\\nYou can also find me on LinkedIn, GitHub, GitLab, Twitter, WhatsApp, and Facebook. Please don't hesitate to connect with me and start a conversation.\\n\\nThank you again for your interest, and I look forward to hearing from you!",
           "about": "About",
           "contact": "Contact",
           "screenshots": "Screenshots",
@@ -207,10 +208,10 @@ export default {
           "portfolio": "Portofolio",
           "portfolio_details": "Detail Portofolio",
           "contact_me": "Kontak Saya",
-          "hi_my_name_is": "Hai, perkenalkan nama saya",
-          "short_intro": "Saya adalah programmer aplikasi dan servis web profesional sejak tahun 2014. Keahlian saya mencakup PHP Laravel, MySQL, MongoDB, Vue JS, React JS, full stack dan REST API",
+          "hi_my_name_is": "Selamat datang, perkenalkan nama saya",
+          "short_intro": "Saya seorang pengembang web dengan fokus pada pengembangan backend API. Saya telah bekerja sebagai pengembang perangkat lunak profesional sejak tahun 2014, dan saya memiliki hasrat untuk membangun aplikasi web yang dinamis dan inovatif yang membantu bisnis mencapai tujuan mereka dan berinteraksi dengan audiens mereka.\\n\\nDengan pengalaman bertahun-tahun di industri ini, saya telah mengasah keterampilan saya dalam pengembangan web, termasuk keahlian dalam Laravel, VueJS, Nuxt, ReactJS, dan React Native. Ini memungkinkan saya untuk tidak hanya mengembangkan aplikasi web tetapi juga aplikasi seluler untuk platform Android dan iOS.\\n\\nDalam peran saya saat ini di InsureDIY, tim saya dan saya telah mengembangkan situs web yang memanfaatkan Nuxt untuk situs pelanggan, VueJS untuk panel admin, dan Laravel sebagai backend API. Saya bangga telah menciptakan arsitektur yang memungkinkan administrator untuk mengelola formulir secara dinamis, yang sangat penting dalam menjual produk keuangan secara efektif. Selain itu, saya mengembangkan fitur newsletter kustom yang terintegrasi dengan data pelanggan kami, sehingga meningkatkan keterlibatan pelanggan dan pertumbuhan penjualan.\\n\\nSepanjang karir saya, saya telah menggunakan MongoDB dalam berbagai proyek dan berhasil mengintegrasikan layanan gateway pembayaran seperti Midtrans dan paydollar. Integrasi-integrasi ini sangat penting dalam memungkinkan klien kami untuk memproses transaksi secara aman dan meningkatkan pengalaman pengguna mereka secara keseluruhan.\\n\\nSaya terbuka untuk proyek apa pun sebagai pekerjaan sampingan dan selalu mencari tantangan baru dan menarik. Pekerjaan pertama saya di sebuah perusahaan adalah sebagai programmer untuk PT Qyta Trans, di mana saya bekerja dari 2014 hingga 2019. Setelah itu, saya bergabung dengan InsureDIY sebagai pengembang perangkat lunak dan bekerja di sana hingga saat ini. Saya memiliki rekam jejak yang stabil dalam bekerja untuk perusahaan dan selalu berusaha untuk memberikan kualitas kerja yang tinggi tepat waktu.\\n\\nTerima kasih telah mengunjungi situs web saya. Jika Anda memiliki pertanyaan atau ingin membahas proyek potensial, jangan ragu untuk menghubungi saya.",
           "contact_me_via": "Hubungi saya lewat",
-          "find_me_on": "Anda dapat menemukan saya di",
+          "find_me_on": "Terima kasih telah mengunjungi situs portofolio saya. Jika Anda memiliki pertanyaan, komentar, atau peluang untuk berkolaborasi, jangan ragu untuk menghubungi saya melalui salah satu tautan di bawah ini atau kirimkan email ke firmantr3[at]gmail.com. Saya tersedia untuk pekerjaan freelance dan terbuka untuk membicarakan proyek potensial.\\n\\nAnda juga dapat menemukan saya di LinkedIn, GitHub, GitLab, Twitter, WhatsApp, dan Facebook. Jangan ragu untuk terhubung dengan saya dan memulai percakapan.\\n\\nTerima kasih lagi atas minat Anda, dan saya berharap dapat mendengar kabar dari Anda!",
           "about": "Tentang",
           "contact": "Kontak",
           "screenshots": "Tangkapan Layar",

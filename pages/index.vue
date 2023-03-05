@@ -32,6 +32,31 @@ export default {
     sidebar() {
       return this.$store.state.ui.sidebar
     }
+  },
+  head: {
+    title: 'Firman Taruna Nugraha',
+    meta: [
+      {
+        hid: 'description',
+        name: 'description',
+        content: 'Firman Taruna Nugraha | Full-Stack Web Developer'
+      },
+      {
+        hid: 'og:description',
+        name: 'og:description',
+        content: 'Firman Taruna Nugraha | Full-Stack Web Developer'
+      },
+      {
+        hid: 'og:type',
+        name: 'og:type',
+        content: 'website'
+      },
+      {
+        hid: 'og:title',
+        name: 'og:title',
+        content: 'Firman Taruna Nugraha'
+      }
+    ],
   }
 }
 </script>
