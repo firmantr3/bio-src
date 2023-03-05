@@ -96,5 +96,15 @@
   "jdihkemenpppa": {
     "title": "JDIH Kemen PPPA",
     "intro": "JDIH Kemen PPPA merupakan aplikasi berbasis mobile android yang memuat Peraturan Perundang-undangan dan Produk Hukum yang diterbitkan oleh Kementerian Pemberdayaan Perempuan dan Perlindungan Anak, serta merupakan sarana penyerbarluasan informasi hukum terkait pemberdayaan perempuan dan perlindungan anak."
+  },
+
+  "jdihkemenpppawebsite": {
+    "title": "JDIH Kemen PPPA Website",
+    "intro": "Website yang memuat Peraturan Perundang-undangan dan Produk Hukum yang diterbitkan oleh Kementerian Pemberdayaan Perempuan dan Perlindungan Anak, serta merupakan sarana penyerbarluasan informasi hukum terkait pemberdayaan perempuan dan perlindungan anak."
+  },
+
+  "insurediy": {
+    "title": "InsureDIY V2",
+    "intro": "Sebagai seorang pengembang full-stack di InsureDIY, saya berkesempatan untuk bekerja pada website dinamis yang memudahkan pelanggan dalam membeli produk keuangan. Dengan memanfaatkan teknologi web terbaru, termasuk Nuxt, VueJS, dan Laravel, saya dan tim berhasil membuat pengalaman pengguna yang lancar yang didukung oleh backend API yang kuat.\\n\\nFokus utama saya di InsureDIY adalah mengembangkan backend API yang fleksibel dan scalable yang memungkinkan administrator untuk mengelola formulir secara dinamis. Arsitektur ini memungkinkan kami untuk menawarkan berbagai produk keuangan, masing-masing dapat terhubung dengan formulir kustom dengan fungsi dan konfigurasi yang unik. Saya juga mengintegrasikan API pihak ketiga dan notifikasi email otomatis untuk mempercepat proses pembelian.\\n\\nSalah satu prestasi yang paling membanggakan saya di InsureDIY adalah mengembangkan fitur newsletter kustom yang terintegrasi dengan data pelanggan kami. Fitur ini memungkinkan kami untuk membuat kampanye pemasaran yang ditargetkan dan dapat dilacak dengan statistik yang canggih. Berkat fitur ini, kami telah berhasil meningkatkan keterlibatan pelanggan dan menghasilkan pertumbuhan penjualan.\\n\\nSelama bekerja di InsureDIY, saya telah mengasah keterampilan sebagai pengembang full-stack dengan fokus pada pengembangan backend API. Saya telah memainkan peran penting dalam mengembangkan arsitektur yang fleksibel dan dinamis yang memungkinkan kami untuk menawarkan berbagai produk keuangan kepada pelanggan kami. Selain itu, saya juga telah membangun fitur-fitur kustom, termasuk platform newsletter, yang telah berkontribusi pada kesuksesan perusahaan kami."
   }
 }

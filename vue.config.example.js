@@ -23,7 +23,7 @@ module.exports = {
     configureWebpack: {
         plugins: [
             new webpack.DefinePlugin({
-                APP_NAME: JSON.stringify("ftn-vue-pwa"),
+                APP_NAME: JSON.stringify("Firman Taruna Nugraha"),
                 APP_LOCALE: JSON.stringify("id"),
                 AUTH_TOKEN_HEADER: JSON.stringify(false),
                 PRODUCTION: JSON.stringify(process.env.NODE_ENV === 'production'),
@@ -34,7 +34,8 @@ module.exports = {
                 APP_VERSION: JSON.stringify(packageJson.version),
                 APP_PACKAGE_NAME: JSON.stringify(packageJson.name),
                 SW_SCOPE: JSON.stringify(publicPath),
-                GOOGLE_ANALYTICS_CODE: JSON.stringify('TRACKING_ID')
+                GOOGLE_ANALYTICS_CODE: JSON.stringify('TRACKING_ID'),
+                APP_DESCRIPTION: JSON.stringify("Firman Taruna Nugraha's profile / portfolio site."),
             })
         ]
     },

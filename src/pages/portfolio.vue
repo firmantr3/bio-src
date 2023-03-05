@@ -23,9 +23,7 @@
         v-b-modal="`modal-${key}`"
       >
           <template v-slot:footer>
-            <template v-for="(type, typeKey) in portfolio.types">
-              <b-badge class="mr-1" :key="typeKey" :variant="type[1]">{{type[0]}}</b-badge>
-            </template>
+            <b-badge v-for="(type, typeKey) in portfolio.types" class="mr-1" :key="typeKey" :variant="type[1]">{{type[0]}}</b-badge>
           </template>
 
           <b-card-text>
@@ -68,8 +66,8 @@
                 height="300px"
               ></b-img-lazy>
               <!-- Portfolio Modal - Text-->
-              <p>
-                {{ $t(`${portfolio.name}.intro`) }}
+              <p v-for="(paragraph, index) in $t(`${portfolio.name}.intro`).split('\\n\\n')" :key="index">
+                {{ paragraph }}
               </p>
 
               <hr>
@@ -90,9 +88,7 @@
                 </div>
                 <div class="col">
                   {{ $t('category') }}:
-                  <template v-for="(type, typeKey) in portfolio.types">
-                    <b-badge class="mr-2" :key="typeKey" :variant="type[1]">{{type[0]}}</b-badge>
-                  </template>
+                  <b-badge v-for="(type, typeKey) in portfolio.types" class="mr-2" :key="typeKey" :variant="type[1]">{{type[0]}}</b-badge>
                 </div>
                 <div class="col">
                   <a target="_blank" :href="portfolio.link">
@@ -151,12 +147,64 @@ import Vue from 'vue'
 Vue.use(Viewer)
 
 const imgAsset = (filename) => {
-  return API_URL + '/img/' + filename
+  return require(`@/assets/img/${filename}`);
 }
 
 export default {
   data: () => ({
     portfolios: [
+      {
+        name: 'insurediy',
+        image: imgAsset('insurediy/customer-home.png'),
+        types: [
+          ['API', 'success'],
+          ['Fullstack', 'secondary'],
+        ],
+        images: [
+          imgAsset('insurediy/customer-dash.png'),
+          imgAsset('insurediy/admin-dash.png'),
+          imgAsset('insurediy/unit-tests.png'),
+          imgAsset('insurediy/mobileapp.jpg'),
+        ],
+        link: 'http://insurediy.com.sg',
+        status: 'Active',
+        statusVariant: 'success',
+        uses: [
+          'Laravel',
+          'PHP',
+          'MySQL',
+          'Nuxt',
+          'VueJS',
+          'Flutter',
+          'JavaScript',
+          'NodeJS',
+          'Redis',
+        ],
+      },
+      {
+        name: 'jdihkemenpppawebsite',
+        image: imgAsset('jdihkemenpppawebsite/thumb.png'),
+        types: [
+          ['Website', 'success'],
+          ['Admin Panel', 'secondary'],
+        ],
+        images: [
+          imgAsset('jdihkemenpppawebsite/full.png'),
+          imgAsset('jdihkemenpppawebsite/login.png'),
+          imgAsset('jdihkemenpppawebsite/admin-dashboard.png'),
+          imgAsset('jdihkemenpppawebsite/admin-menu.png'),
+        ],
+        link: 'http://jdih.kemenpppa.go.id',
+        status: 'Active',
+        statusVariant: 'success',
+        uses: [
+          'Laravel',
+          'PHP',
+          'MySQL',
+          'Bootstrap Responsive',
+          'Redis',
+        ],
+      },
       {
         name: 'mobiltravel',
         image: imgAsset('mobiltravel/thumb.png'),

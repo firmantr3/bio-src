@@ -96,5 +96,15 @@
   "jdihkemenpppa": {
     "title": "JDIH Kemen PPPA",
     "intro": "The JDIH Kemen PPPA is an android-based mobile application that contains Legislation and Legal Products issued by the Ministry of Women's Empowerment and Child Protection, and is a means of disseminating legal information related to women's empowerment and child protection."
+  },
+
+  "jdihkemenpppawebsite": {
+    "title": "JDIH Kemen PPPA Website",
+    "intro": "The website that contains Legislation and Legal Products issued by the Ministry of Women's Empowerment and Child Protection, and is a means of disseminating legal information related to women's empowerment and child protection."
+  },
+
+  "insurediy": {
+    "title": "InsureDIY V2",
+    "intro": "As a full-stack developer at InsureDIY, I've had the privilege of working on a dynamic website that empowers customers to purchase financial products with ease. Leveraging the latest web technologies, including Nuxt, VueJS, and Laravel, my team and I created a seamless user experience that is supported by a robust backend API.\\n\\nMy primary focus at InsureDIY has been on developing a flexible and scalable backend API that allows administrators to manage forms dynamically. This architecture enables us to offer a wide range of financial products, each of which can be linked to a custom form with unique functions and configurations. I've also integrated third-party APIs and automated email notifications to streamline the purchasing process.\\n\\nOne of my proudest achievements at InsureDIY was developing a custom newsletter feature that integrates seamlessly with our customer data. This feature allows us to create targeted marketing campaigns that can be tracked and analyzed with advanced statistics. Thanks to this feature, we've been able to improve our customer engagement and drive sales growth.\\n\\nThroughout my tenure at InsureDIY, I've honed my skills as a full-stack developer with a focus on backend API development. I've played a key role in developing a flexible and dynamic architecture that allows us to offer a wide range of financial products to our customers. Additionally, I've built custom features, including a newsletter platform, that have contributed to our success as a company."
   }
 }
