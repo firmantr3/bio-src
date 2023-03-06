@@ -112,42 +112,42 @@ export default {
 
           "qytasik": {
             "title": "SIK (Partnership Information System) Qyta Trans",
-            "intro": "Proprietary monitoring web based app for QytaTrans Travel's Investors internal use. I have develop this app fullstack from backend to frontend."
+            "intro": "During my time at PT Qyta Trans Group, I had the opportunity to contribute to the company's internal systems in several ways. One of my main accomplishments was the development of a ticketing system that included advanced vehicle management features. This system was created from scratch using my skills in full-stack development and PHP programming, and it played a crucial role in improving overall efficiency and customer satisfaction at Qyta Trans.\\n\\nAs part of this work, I also had the opportunity to create an app that allowed other parties with profit-sharing contracts to monitor their units within Qyta Trans' vehicle fleet. Since many of these vehicles were not owned directly by Qyta Trans, this app provided a valuable way for partners to stay informed about the status and location of their units. By integrating this app with the larger ticketing system, we were able to create a more comprehensive and efficient solution for managing Qyta Trans' entire fleet of vehicles. Overall, this project was a key contribution to the company's success, helping to improve operations and customer satisfaction across the board."
           },
 
           "mobiltravel": {
             "title": "Mobiltravel Mobile & Web App",
-            "intro": "Seat reservation platform, book transport ticket on the go. I lead the backend team and contributed for the app architecture design principal. I also developed & documented most of the API."
+            "intro": "When I was working for PT Qyta Trans Group, I created a web-based ticketing system that was only used by our company's internal staff. However, I realized that we could expand our business by connecting our system with various online ticket providers.\\n\\nTogether with my team, we built a new API bridge that enabled Qyta Trans to sell tickets from multiple online providers. By using this API, we were able to expand our business reach and provide more ticketing options for our customers.\\n\\nAdditionally, I also created an API for our own provider, Mobiltravel, which allowed our customers to use the mobile app to book tickets, update order details, and track their travel schedules easily. By using this technology, we were able to provide a better experience for our customers and strengthen our business in an increasingly competitive market.\\n\\nThis system was a significant breakthrough for PT Qyta Trans Group, allowing us to expand our business reach and provide the best service for our customers. I am proud to be a part of this project and contribute to the success of our company."
           },
 
           "qytachecklist": {
             "title": "Qyta Trans Vehicle Checklist",
-            "intro": "Proprietary vehicle checklist progressive web app (PWA) for QytaTrans Travel internal use. I'm the lead developer for this app development fullstack from backend to frontend."
+            "intro": "As part of my work at PT Qyta Trans Group, I developed a module for vehicle checklists that integrates seamlessly with the company's ticketing system. The purpose of this module is to provide an efficient and streamlined way to manage vehicle maintenance and safety checks, reducing the risk of issues and improving overall operations. Through this integration, employees can easily schedule and track vehicle checklists as part of their regular workflows, ensuring that vehicles are always in top condition and ready for use. Overall, this module has been a valuable addition to the company's internal systems, helping to improve efficiency and safety across the board."
           },
 
           "qytahris": {
             "title": "Human Resource Information System Qyta Trans",
-            "intro": "A legacy human resource information system web based app for QytaTrans Travel internal use. I've made small updates and maintenance on this app."
+            "intro": "During my time at PT Qyta Trans Group, I had the opportunity to contribute to the company's internal systems in several ways. One of my primary achievements was the creation of a ticketing system to help manage and track customer requests and support issues. This system was developed from scratch using my skills in full-stack development and PHP programming, and it played a key role in improving overall efficiency and customer satisfaction at Qyta Trans.\\n\\nIn addition to my work on the ticketing system, I also had the chance to collaborate with a colleague on the development of the company's HRIS system. While my colleague was responsible for the initial development of this system, I was able to contribute by making small updates and fixes to help ensure that the system was running smoothly and meeting the needs of Qyta Trans employees. Through this collaboration, we were able to create a more robust and effective HRIS system, helping to improve employee satisfaction and retention at the company."
           },
 
           "smanusa": {
             "title": "SMANUSA Kemranjen Highschool Website",
-            "intro": "A SMA NU 1 Kemranjen's high school profile website. I have develop this website with PHP core without framework on my early career as web developer."
+            "intro": "One of my notable projects was developing a school official website for SMA NU 1 Kemranjen using vanilla PHP and bootstrap UI. My focus was on creating a user-friendly interface that enables students, teachers, and parents to easily access relevant information and stay updated with the latest news and events.\\n\\nIn addition to web development, I also have expertise in database management, API integration, and version control systems. I am dedicated to delivering high-quality work that meets my clients' needs and exceeds their expectations."
           },
 
           "sum": {
             "title": "Syirkah Ummat Backend & Admin",
-            "intro": "A coop system that able to provide crowdfunding capability too. I have developed the backend mobile API that implements JWT authentication on top of PHP Laravel includiing the frontend for administrator and member each."
+            "intro": "I worked on a project for Syirkah Ummat Cilacap where I developed a crowdfunding platform based on Sharia's law. My primary responsibility was developing the backend API for the client mobile application. Additionally, I worked on the full stack for the admin panel. This project allowed me to contribute my technical expertise while also supporting the client's mission of promoting ethical financial practices."
           },
 
           "qytaadmin": {
             "title": "Qyta Trans Travel Admin",
-            "intro": "Proprietary web based app for QytaTrans Travel internal use. I have developed this app fullstack from backend to frontend."
+            "intro": "During my employment at PT Qyta Trans Group from 2016 to 2019, I took on the challenge of building a ticketing system for the company. With no existing framework to work with, I wrote the system from scratch using plain PHP and full-stack development skills, working independently to create a custom solution tailored specifically to the company's needs. The resulting system was designed to be used internally by Qyta Trans employees, providing a private and secure way to manage the company's ticketing processes."
           },
 
           "qytabot": {
             "title": "Qyta Trans Telegram Bot",
-            "intro": "Telegram bot for quick reports, booking tickets for customer, and vehicle checking for checkers."
+            "intro": "During my time at PT Qyta Trans Group, one of the challenges we faced with our ticketing system was that it was web-based, which made it difficult to access in remote areas with weak signals. To solve this problem, I created a Telegram Bot for our operations employees who were dispatched to remote areas, which allowed them to manage their tasks using text-based commands.\\n\\nThe Telegram Bot was a simple and effective solution that enabled our employees to stay connected even when they were working in areas with weak internet signals. With this tool, they could easily check and update their tasks, access important information, and communicate with our central team. By implementing this solution, we were able to improve our overall efficiency and ensure that our employees could do their jobs effectively in any location.\\n\\nIn addition to the Telegram Bot for operations, I also created another bot for our customers to book tickets. This bot allowed customers to book their tickets directly through Telegram, and our customer service team would then approve the booking and send the ticket information back to the customer. This was a convenient and user-friendly way for our customers to book their tickets, and it helped us to improve our customer satisfaction rates overall.\\n\\nOverall, these Telegram Bots were valuable additions to our ticketing system, allowing us to overcome the challenges of weak signals in remote areas and providing our employees and customers with new and more efficient ways to manage their tasks and bookings."
           },
 
           "idiymotor": {
@@ -156,13 +156,13 @@ export default {
           },
 
           "jdihkemenpppa": {
-            "title": "JDIH Kemen PPPA",
-            "intro": "The JDIH Kemen PPPA is an android-based mobile application that contains Legislation and Legal Products issued by the Ministry of Women's Empowerment and Child Protection, and is a means of disseminating legal information related to women's empowerment and child protection."
+            "title": "JDIH Kemen PPPA Mobile App",
+            "intro": "I developed a mobile app version of the JDIH Kemenppa website for the Ministry of Women Empowerment and Child Protection. The app was built using React Native, a powerful framework for creating high-performance mobile applications. With this app, users can easily access important information and resources related to women's empowerment and child protection, all from the convenience of their mobile devices. As a result, the Ministry is better equipped to reach and engage with their audience, furthering their mission of promoting gender equality and protecting vulnerable populations."
           },
 
           "jdihkemenpppawebsite": {
             "title": "JDIH Kemen PPPA Website",
-            "intro": "The website that contains Legislation and Legal Products issued by the Ministry of Women's Empowerment and Child Protection, and is a means of disseminating legal information related to women's empowerment and child protection."
+            "intro": "The Ministry of Women Empowerment and Child Protection approached me to rewrite their JDIH website by revamping its user interface to be clean and responsive, improving its SEO, and adding some additional features to facilitate data management. In this project, I made sure that the website not only had an attractive design but was also easy to navigate and searchable by search engines. With these enhancements, the Ministry can more easily publish important information and manage data efficiently, helping them achieve their goals of promoting gender equality and child protection."
           },
 
           "insurediy": {
@@ -222,42 +222,42 @@ export default {
 
           "qytasik": {
             "title": "Sistem Informasi Kemitraan Qyta Trans",
-            "intro": "Aplikasi monitoring berbasis web diperuntukkan bagi Investor QytaTrans Travel. Saya telah mengerjakan aplikasi ini fullstack dari backend hingga frontend."
+            "intro": "Selama bekerja di PT Qyta Trans Group, saya memiliki kesempatan untuk berkontribusi pada sistem internal perusahaan dengan beberapa cara. Salah satu prestasi utama saya adalah pengembangan sistem pemesanan tiket yang mencakup fitur manajemen kendaraan yang canggih. Sistem ini dibuat dari awal menggunakan keterampilan pengembangan full-stack dan pemrograman PHP, dan memainkan peran penting dalam meningkatkan efisiensi dan kepuasan pelanggan di Qyta Trans.\\n\\nSebagai bagian dari pekerjaan ini, saya juga berkesempatan untuk menciptakan sebuah aplikasi yang memungkinkan pihak lain dengan kontrak bagi hasil untuk memantau unit mereka dalam armada kendaraan Qyta Trans. Karena banyak kendaraan ini tidak dimiliki langsung oleh Qyta Trans, aplikasi ini memberikan cara yang berharga bagi mitra untuk tetap terinformasi tentang status dan lokasi unit mereka. Dengan mengintegrasikan aplikasi ini dengan sistem pemesanan tiket yang lebih besar, kami dapat menciptakan solusi yang lebih komprehensif dan efisien untuk mengelola seluruh armada kendaraan Qyta Trans. Secara keseluruhan, proyek ini merupakan kontribusi penting bagi kesuksesan perusahaan, membantu meningkatkan operasi dan kepuasan pelanggan secara keseluruhan."
           },
 
           "mobiltravel": {
             "title": "Mobiltravel Mobile & Web App",
-            "intro": "Platform reservasi kursi, pesan tiket travel online kapan saja dan dimana saja. Saya bekerja sebagai lead programmer dan berkontribusi pada desain dan development arsitektur backend dari aplikasi ini."
+            "intro": "Saat saya bekerja di PT Qyta Trans Group, saya menciptakan sistem pemesanan tiket berbasis web yang hanya digunakan oleh internal perusahaan kami. Namun, saya menyadari bahwa kami dapat memperluas bisnis kami dengan menghubungkan sistem kami dengan berbagai penyedia tiket online.\\n\\nBersama dengan tim saya, saya membangun API bridge baru yang memungkinkan Qyta Trans untuk menjual tiket dari beberapa penyedia tiket online. Dengan menggunakan API ini, kami dapat memperluas jangkauan bisnis kami dan memberikan lebih banyak pilihan tiket bagi pelanggan kami.\\n\\nSelain itu, saya juga membuat API untuk provider kami sendiri, yaitu Mobiltravel, yang memungkinkan pelanggan kami menggunakan aplikasi seluler untuk memesan tiket, memperbarui detail pesanan, dan melacak jadwal perjalanan mereka dengan mudah. Dengan menggunakan teknologi ini, kami dapat memberikan pengalaman yang lebih baik bagi pelanggan kami dan memperkuat bisnis kami di pasar yang semakin kompetitif.\\n\\nSistem ini merupakan terobosan penting bagi PT Qyta Trans Group, memungkinkan kami untuk memperluas jangkauan bisnis kami dan memberikan layanan terbaik bagi pelanggan kami. Saya bangga bisa menjadi bagian dari proyek ini dan berkontribusi pada kesuksesan perusahaan kami."
           },
 
           "qytachecklist": {
             "title": "Qyta Trans Checklist Armada",
-            "intro": "Aplikasi web progresif (PWA) checklist armada QytaTrans Travel intuk pemakaian internal. Saya memimpin pengerjaan aplikasi ini fullstack dari backend hingga frontend."
+            "intro": "Sebagai bagian dari pekerjaan saya di PT Qyta Trans Group, saya mengembangkan sebuah modul untuk checklist kendaraan yang terintegrasi secara mulus dengan sistem pemesanan tiket perusahaan. Tujuan dari modul ini adalah untuk menyediakan cara yang efisien dan mudah untuk mengelola perawatan kendaraan dan pemeriksaan keselamatan, mengurangi risiko masalah dan meningkatkan efisiensi operasional secara keseluruhan. Melalui integrasi ini, karyawan dapat dengan mudah menjadwalkan dan melacak checklist kendaraan sebagai bagian dari alur kerja mereka, memastikan bahwa kendaraan selalu dalam kondisi terbaik dan siap digunakan. Secara keseluruhan, modul ini merupakan tambahan yang berharga untuk sistem internal perusahaan, membantu meningkatkan efisiensi dan keselamatan secara keseluruhan."
           },
 
           "qytahris": {
             "title": "Sistem Informasi Karyawan (HRIS) Qyta Trans",
-            "intro": "Adalah sistem informasi karyawan berbasis web untuk internal QytaTrans Travel. Saya melakukan sedikit pembaruan dan perbaikan pada aplikasi ini."
+            "intro": "Selama bekerja di PT Qyta Trans Group, saya memiliki kesempatan untuk berkontribusi pada sistem internal perusahaan dengan beberapa cara. Salah satu pencapaian utama saya adalah menciptakan sistem pemesanan tiket untuk membantu mengelola dan melacak permintaan pelanggan dan masalah dukungan. Sistem ini dibuat dari awal menggunakan keterampilan pengembangan full-stack dan pemrograman PHP, dan memainkan peran penting dalam meningkatkan efisiensi dan kepuasan pelanggan di Qyta Trans.\\n\\nSelain pekerjaan saya pada sistem pemesanan tiket, saya juga berkesempatan untuk berkolaborasi dengan seorang rekan kerja dalam pengembangan sistem HRIS perusahaan. Meskipun rekan saya bertanggung jawab atas pengembangan awal sistem ini, saya dapat berkontribusi dengan melakukan pembaruan dan perbaikan kecil untuk membantu memastikan sistem berjalan dengan lancar dan memenuhi kebutuhan karyawan Qyta Trans. Melalui kolaborasi ini, kami dapat menciptakan sistem HRIS yang lebih kuat dan efektif, membantu meningkatkan kepuasan dan retensi karyawan di perusahaan tersebut."
           },
 
           "smanusa": {
             "title": "Website Sekolah SMANUSA Kemranjen",
-            "intro": "Website profil dari SMA NU 1 Kemranjen. Saya membangun website ini menggunakan PHP core tanpa framework saat saya masih baru memulai karir sebagai web developer."
+            "intro": "Salah satu proyek awal saya adalah mengembangkan situs web resmi sekolah untuk SMA NU 1 Kemranjen menggunakan PHP murni dan antarmuka pengguna bootstrap. Fokus saya adalah menciptakan antarmuka yang ramah pengguna yang memungkinkan siswa, guru, dan orang tua untuk dengan mudah mengakses informasi relevan dan tetap terbaru dengan berita dan acara terbaru.\\n\\nSelain pengembangan web, saya juga memiliki keahlian dalam manajemen database, integrasi API, dan sistem kontrol versi. Saya berdedikasi untuk memberikan hasil kerja berkualitas tinggi yang memenuhi kebutuhan klien dan melebihi harapan mereka."
           },
 
           "sum": {
             "title": "Syirkah Ummat Mobile Backend & Admin",
-            "intro": "Yaitu sistem koperasi dan platform crowdfunding. Saya develop backend mobile API dengan otentikasi JWT dengan PHP laravel beserta frontend admin & membernya."
+            "intro": "Saya telah mengerjakan proyek untuk Syirkah Ummat Cilacap, membuat platform crowdfunding yang berbasis pada hukum syariah. Saya terutama mengembangkan API backend untuk aplikasi seluler klien, dan fullstack pada panel admin. Proyek ini memungkinkan saya untuk memberikan kontribusi keahlian teknis saya sambil juga mendukung misi klien dalam mempromosikan praktik keuangan yang etis."
           },
 
           "qytaadmin": {
             "title": "Qyta Trans Travel Admin",
-            "intro": "Aplikasi utama QytaTrans Travel berbasis web intuk pemakaian internal termasuk reservasi kursi, setoran driver, hingga laporan keuangan. Saya telah mengerjakan aplikasi ini fullstack dari backend hingga frontend."
+            "intro": "Selama bekerja di PT Qyta Trans Group dari tahun 2016 hingga 2019, saya menerima tantangan untuk membangun sistem tiket untuk perusahaan tersebut. Tanpa framework yang tersedia, saya menulis sistem tersebut dari awal menggunakan bahasa pemrograman PHP dan keterampilan pengembangan full-stack, serta bekerja secara mandiri untuk membuat solusi kustom yang disesuaikan dengan kebutuhan perusahaan. Sistem yang dihasilkan dirancang untuk digunakan secara internal oleh karyawan Qyta Trans, memberikan cara yang aman dan terpercaya untuk mengelola proses pemesanan tiket perusahaan."
           },
 
           "qytabot": {
             "title": "Telegram Bot Qyta Trans",
-            "intro": "Telegram untuk manajemen cepat operasional kantor, pesan tiket untuk customer, dan ceklis kendaraan."
+            "intro": "Saat saya bekerja di PT Qyta Trans Group, salah satu tantangan yang kami hadapi dengan sistem pemesanan tiket kami adalah bahwa sistemnya berbasis web, sehingga sulit diakses di daerah-daerah terpencil dengan sinyal internet yang lemah. Untuk mengatasi masalah ini, saya menciptakan Telegram Bot untuk karyawan operasi kami yang ditempatkan di daerah-daerah terpencil. Bot ini memungkinkan mereka untuk mengelola tugas mereka menggunakan perintah berbasis teks.\\n\\nTelegram Bot merupakan solusi sederhana dan efektif yang memungkinkan karyawan kami tetap terhubung meskipun mereka bekerja di daerah dengan sinyal internet yang lemah. Dengan alat ini, mereka dapat dengan mudah memeriksa dan memperbarui tugas mereka, mengakses informasi penting, dan berkomunikasi dengan tim pusat kami. Dengan mengimplementasikan solusi ini, kami dapat meningkatkan efisiensi kami secara keseluruhan dan memastikan bahwa karyawan kami dapat menjalankan pekerjaan mereka dengan efektif di lokasi mana pun.\\n\\nSelain Telegram Bot untuk operasi, saya juga membuat bot lain untuk pelanggan kami untuk memesan tiket. Bot ini memungkinkan pelanggan untuk memesan tiket mereka langsung melalui Telegram, dan tim layanan pelanggan kami kemudian akan menyetujui pemesanan dan mengirimkan informasi tiket kembali kepada pelanggan. Ini adalah cara yang nyaman dan mudah digunakan bagi pelanggan kami untuk memesan tiket mereka, dan membantu kami meningkatkan tingkat kepuasan pelanggan kami secara keseluruhan.\\n\\nSecara keseluruhan, Telegram Bots ini merupakan tambahan berharga untuk sistem pemesanan tiket kami, memungkinkan kami untuk mengatasi tantangan sinyal lemah di daerah terpencil dan memberikan karyawan dan pelanggan kami cara yang baru dan lebih efisien untuk mengelola tugas dan pemesanan mereka."
           },
 
           "idiymotor": {
@@ -266,13 +266,13 @@ export default {
           },
 
           "jdihkemenpppa": {
-            "title": "JDIH Kemen PPPA",
-            "intro": "JDIH Kemen PPPA merupakan aplikasi berbasis mobile android yang memuat Peraturan Perundang-undangan dan Produk Hukum yang diterbitkan oleh Kementerian Pemberdayaan Perempuan dan Perlindungan Anak, serta merupakan sarana penyerbarluasan informasi hukum terkait pemberdayaan perempuan dan perlindungan anak."
+            "title": "JDIH Kemen PPPA Mobile App",
+            "intro": "Saya telah melakukan sebuah proyek untuk Kementerian Pemberdayaan Perempuan dan Perlindungan Anak untuk membuat versi aplikasi seluler dari situs web JDIH Kemenppa mereka. Aplikasi ini dibuat dengan menggunakan React Native, sebuah kerangka kerja yang handal untuk membuat aplikasi seluler yang berkualitas tinggi. Dengan aplikasi ini, pengguna dapat dengan mudah mengakses informasi dan sumber daya penting terkait pemberdayaan perempuan dan perlindungan anak, semua dari kenyamanan perangkat seluler mereka. Sebagai hasilnya, Kementerian menjadi lebih mampu untuk mencapai dan terlibat dengan audiens mereka, lebih lanjut memajukan misi mereka dalam mempromosikan kesetaraan gender dan melindungi populasi yang rentan."
           },
 
           "jdihkemenpppawebsite": {
             "title": "JDIH Kemen PPPA Website",
-            "intro": "Website yang memuat Peraturan Perundang-undangan dan Produk Hukum yang diterbitkan oleh Kementerian Pemberdayaan Perempuan dan Perlindungan Anak, serta merupakan sarana penyerbarluasan informasi hukum terkait pemberdayaan perempuan dan perlindungan anak."
+            "intro": "Saya diminta oleh Kementerian Pemberdayaan Perempuan dan Perlindungan Anak untuk menulis ulang situs web JDIH mereka dengan memperbarui antarmuka pengguna untuk menjadi bersih dan responsif, meningkatkan SEO, dan menambahkan beberapa fitur tambahan untuk memudahkan pengelolaan data. Dalam proyek ini, saya memastikan bahwa situs web tersebut tidak hanya memiliki tampilan yang menarik, tetapi juga mudah dinavigasi dan dapat ditemukan oleh mesin pencari. Dengan peningkatan ini, Kementerian dapat lebih mudah mempublikasikan informasi penting dan mengelola data dengan lebih efisien, membantu mereka mencapai tujuan mereka dalam mempromosikan kesetaraan gender dan perlindungan anak."
           },
 
           "insurediy": {

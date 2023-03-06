@@ -1,7 +1,7 @@
 <template>
   <b-navbar toggleable="lg" type="dark" class="navbar navbar-expand-lg bg-secondary text-uppercase fixed-top" :class="{'navbar-shrink': shrink}" id="mainNav" v-b-scrollspy="60">
     <b-container>
-      <b-navbar-brand href="#" v-scroll-to="'#page-top'">Firman Taruna Nugraha</b-navbar-brand>
+      <h1 style="font-size: 1em;"><b-navbar-brand href="#" v-scroll-to="'#page-top'">Firman Taruna Nugraha</b-navbar-brand></h1>
 
       <b-navbar-toggle target="nav-collapse"></b-navbar-toggle>
 
