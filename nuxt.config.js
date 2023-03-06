@@ -57,6 +57,9 @@ export default {
   pwa: {
     manifest: {
       name: 'Firman Taruna Nugraha',
+      short_name: 'FTN',
+      background_color: "#F7F9FB",
+      theme_color: "#F7F9FB"
     }
   },
 

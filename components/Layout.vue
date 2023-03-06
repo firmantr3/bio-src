@@ -12,16 +12,10 @@
 </template>
 
 <script>
-const Navbar = () => import('@/components/Navbar').then(m => m.default || m);
-const Firman = () => import('@/components/Firman').then(m => m.default || m);
 import {mapMutations} from 'vuex'
 import { debounce } from 'lodash'
 
 export default {
-  components: {
-    Navbar,
-    Firman
-  },
   created () {
   },
   mounted() {

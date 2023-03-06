@@ -22,12 +22,7 @@
 </template>
 
 <script>
-const LocaleDropdown = () => import('./LocaleDropdown').then(m => m.default || m);
-
 export default {
-  components: {
-    LocaleDropdown
-  },
   computed: {
     shrink() {
       return this.$store.state.ui.shrink
