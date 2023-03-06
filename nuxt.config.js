@@ -48,7 +48,12 @@ export default {
     'bootstrap-vue/nuxt',
     '@nuxtjs/i18n',
     '@nuxtjs/axios',
+    '@nuxtjs/gtm'
   ],
+
+  gtm: {
+    id: 'UA-161599854-1'
+  },
 
   // Build Configuration: https://go.nuxtjs.dev/config-build
   build: {
